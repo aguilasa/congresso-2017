@@ -3,7 +3,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Speakers</ion-title>
+    <ion-title>Palestrantes</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -26,7 +26,7 @@
         </button>
 
         <button ion-item (click)="goToSpeakerDetail(speaker)">
-          <h3>About {{speaker.name}}</h3>
+          <h3>Sobre: {{speaker.name}}</h3>
         </button>
       </ion-list>
     </ion-card-content>
@@ -38,16 +38,10 @@
           Tweet
         </button>
       </ion-col>
-      <ion-col text-center>
-        <button ion-button clear small color="primary" icon-left (click)="openSpeakerShare(speaker)">
-          <ion-icon name='share-alt'></ion-icon>
-         Share
-        </button>
-      </ion-col>
       <ion-col text-right>
         <button ion-button clear small color="primary" icon-left (click)="openContact(speaker)">
           <ion-icon name='chatboxes'></ion-icon>
-          Contact
+          Contato
         </button>
       </ion-col>
     </ion-row>

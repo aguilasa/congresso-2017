@@ -4,11 +4,7 @@ import { Events, MenuController, Nav, Platform } from 'ionic-angular';
 import { Splashscreen } from 'ionic-native';
 import { Storage } from '@ionic/storage';
 
-import { AccountPage } from '../pages/account/account';
-import { LoginPage } from '../pages/login/login';
-import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
-import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
@@ -34,21 +30,12 @@ export class ConferenceApp {
   // the left menu only works after login
   // the login page disables the left menu
   appPages: PageInterface[] = [
-    { title: 'Schedule', component: TabsPage, icon: 'calendar' },
-    { title: 'Speakers', component: TabsPage, index: 1, icon: 'contacts' },
-    { title: 'Map', component: TabsPage, index: 2, icon: 'map' },
-    { title: 'About', component: TabsPage, index: 3, icon: 'information-circle' }
+    { title: 'Programação', component: TabsPage, icon: 'calendar' },
+    { title: 'Palestrantes', component: TabsPage, index: 1, icon: 'contacts' },
+    { title: 'Mapa', component: TabsPage, index: 2, icon: 'map' },
+    { title: 'Info', component: TabsPage, index: 3, icon: 'information-circle' }
   ];
-  loggedInPages: PageInterface[] = [
-    { title: 'Account', component: AccountPage, icon: 'person' },
-    { title: 'Support', component: SupportPage, icon: 'help' },
-    { title: 'Logout', component: TabsPage, icon: 'log-out', logsOut: true }
-  ];
-  loggedOutPages: PageInterface[] = [
-    { title: 'Login', component: LoginPage, icon: 'log-in' },
-    { title: 'Support', component: SupportPage, icon: 'help' },
-    { title: 'Signup', component: SignupPage, icon: 'person-add' }
-  ];
+
   rootPage: any;
 
   constructor(
@@ -59,27 +46,11 @@ export class ConferenceApp {
     public confData: ConferenceData,
     public storage: Storage
   ) {
-
-    // Check if the user has already seen the tutorial
-    this.storage.get('hasSeenTutorial')
-      .then((hasSeenTutorial) => {
-        if (hasSeenTutorial) {
-          this.rootPage = TabsPage;
-        } else {
-          this.rootPage = TutorialPage;
-        }
-        this.platformReady()
-      })
+    this.rootPage = TabsPage;
+    this.platformReady();
 
     // load the conference data
     confData.load();
-
-    // decide which menu items should be hidden by current login status stored in local storage
-    this.userData.hasLoggedIn().then((hasLoggedIn) => {
-      this.enableMenu(hasLoggedIn === true);
-    });
-
-    this.listenToLoginEvents();
   }
 
   openPage(page: PageInterface) {
@@ -101,26 +72,6 @@ export class ConferenceApp {
         this.userData.logout();
       }, 1000);
     }
-  }
-  openTutorial() {
-    this.nav.setRoot(TutorialPage);
-  }
-  listenToLoginEvents() {
-    this.events.subscribe('user:login', () => {
-      this.enableMenu(true);
-    });
-
-    this.events.subscribe('user:signup', () => {
-      this.enableMenu(true);
-    });
-
-    this.events.subscribe('user:logout', () => {
-      this.enableMenu(false);
-    });
-  }
-  enableMenu(loggedIn) {
-    this.menu.enable(loggedIn, 'loggedInMenu');
-    this.menu.enable(!loggedIn, 'loggedOutMenu');
   }
   platformReady() {
     // Call any initial plugins when ready

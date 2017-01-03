@@ -180,61 +180,61 @@
 
 
   "speakers": [{
+    "name": "Dr. Roger M. Wanke",
+    "profilePic": "assets/img/speakers/roger_m_wanke.png",
+    "twitter": "",
+    "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
+    "location": "",
+    "email": "roger.wanke@flt.edu.br"
+  }, {
     "name": "Burt Bear",
     "profilePic": "assets/img/speakers/bear.jpg",
     "twitter": "ionicframework",
     "about": "Burt is a Bear.",
     "location": "Everywhere",
-    "email": "burt@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "burt@example.com"
   }, {
     "name": "Charlie Cheetah",
     "profilePic": "assets/img/speakers/cheetah.jpg",
     "twitter": "ionicframework",
     "about": "Charlie is a Cheetah.",
     "location": "Everywhere",
-    "email": "charlie@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "charlie@example.com"
   }, {
     "name": "Donald Duck",
     "profilePic": "assets/img/speakers/duck.jpg",
     "twitter": "ionicframework",
     "about": "Donald is a Duck.",
     "location": "Everywhere",
-    "email": "donald@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "donald@example.com"
   }, {
     "name": "Eva Eagle",
     "profilePic": "assets/img/speakers/eagle.jpg",
     "twitter": "ionicframework",
     "about": "Eva is an Eagle.",
     "location": "Everywhere",
-    "email": "eva@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "eva@example.com"
   }, {
     "name": "Ellie Elephant",
     "profilePic": "assets/img/speakers/elephant.jpg",
     "twitter": "ionicframework",
     "about": "Ellie is an Elephant.",
     "location": "Everywhere",
-    "email": "ellie@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "ellie@example.com"
   }, {
     "name": "Gino Giraffe",
     "profilePic": "assets/img/speakers/giraffe.jpg",
     "twitter": "ionicframework",
     "about": "Gino is a Giraffe.",
     "location": "Everywhere",
-    "email": "gino@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "gino@example.com"
   }, {
     "name": "Isabella Iguana",
     "profilePic": "assets/img/speakers/iguana.jpg",
     "twitter": "ionicframework",
     "about": "Isabella is an Iguana.",
     "location": "Everywhere",
-    "email": "isabella@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "isabella@example.com"
   }, {
     "name": "Karl Kitten",
     "profilePic": "assets/img/speakers/kitten.jpg",
@@ -249,40 +249,35 @@
     "twitter": "ionicframework",
     "about": "Lionel is a Lion.",
     "location": "Everywhere",
-    "email": "lionel@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "lionel@example.com"
   }, {
     "name": "Molly Mouse",
     "profilePic": "assets/img/speakers/mouse.jpg",
     "twitter": "ionicframework",
     "about": "Molly is a Mouse.",
     "location": "Everywhere",
-    "email": "molly@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "molly@example.com"
   }, {
     "name": "Paul Puppy",
     "profilePic": "assets/img/speakers/puppy.jpg",
     "twitter": "ionicframework",
     "about": "Paul is a Puppy.",
     "location": "Everywhere",
-    "email": "paul@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "paul@example.com"
   }, {
     "name": "Rachel Rabbit",
     "profilePic": "assets/img/speakers/rabbit.jpg",
     "twitter": "ionicframework",
     "about": "Rachel is a Rabbit.",
     "location": "Everywhere",
-    "email": "rachel@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "rachel@example.com"
   }, {
     "name": "Ted Turtle",
     "profilePic": "assets/img/speakers/turtle.jpg",
     "twitter": "ionicframework",
     "about": "Ted is a Turtle.",
     "location": "Everywhere",
-    "email": "ted@example.com",
-    "phone": "+1-541-754-3010"
+    "email": "ted@example.com"
   }],
 
 
