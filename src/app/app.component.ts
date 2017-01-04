@@ -5,10 +5,8 @@ import { Splashscreen } from 'ionic-native';
 import { Storage } from '@ionic/storage';
 
 import { TabsPage } from '../pages/tabs/tabs';
-import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
-import { UserData } from '../providers/user-data';
 
 export interface PageInterface {
   title: string;
@@ -32,15 +30,15 @@ export class ConferenceApp {
   appPages: PageInterface[] = [
     { title: 'Programação', component: TabsPage, icon: 'calendar' },
     { title: 'Palestrantes', component: TabsPage, index: 1, icon: 'contacts' },
-    { title: 'Mapa', component: TabsPage, index: 2, icon: 'map' },
-    { title: 'Info', component: TabsPage, index: 3, icon: 'information-circle' }
+    { title: 'Músicas', component: TabsPage, index: 2, icon: 'musical-notes' },
+    { title: 'Mapa', component: TabsPage, index: 3, icon: 'locate' },
+    { title: 'Info', component: TabsPage, index: 4, icon: 'information-circle' }
   ];
 
   rootPage: any;
 
   constructor(
     public events: Events,
-    public userData: UserData,
     public menu: MenuController,
     public platform: Platform,
     public confData: ConferenceData,
@@ -65,18 +63,15 @@ export class ConferenceApp {
         console.log("Didn't set nav root");
       });
     }
-
-    if (page.logsOut === true) {
-      // Give the menu time to close before changing to logged out
-      setTimeout(() => {
-        this.userData.logout();
-      }, 1000);
-    }
   }
   platformReady() {
     // Call any initial plugins when ready
     this.platform.ready().then(() => {
-      Splashscreen.hide();
+      if (Splashscreen) {
+        setTimeout(() => {
+          Splashscreen.hide();
+        }, 100);
+      }
     });
   }
 }

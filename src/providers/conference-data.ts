@@ -2,8 +2,6 @@ import { Injectable } from '@angular/core';
 
 import { Http } from '@angular/http';
 
-import { UserData } from './user-data';
-
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/of';
@@ -13,7 +11,7 @@ import 'rxjs/add/observable/of';
 export class ConferenceData {
   data: any;
 
-  constructor(public http: Http, public user: UserData) { }
+  constructor(public http: Http) { }
 
   load(): any {
     if (this.data) {
@@ -115,19 +113,8 @@ export class ConferenceData {
       }
     });
 
-    // if the segement is 'favorites', but session is not a user favorite
-    // then this session does not pass the segment test
-    let matchesSegment = false;
-    if (segment === 'favorites') {
-      if (this.user.hasFavorite(session.name)) {
-        matchesSegment = true;
-      }
-    } else {
-      matchesSegment = true;
-    }
-
     // all tests must be true if it should not be hidden
-    session.hide = !(matchesQueryText && matchesTracks && matchesSegment);
+    session.hide = !(matchesQueryText && matchesTracks);
   }
 
   getSpeakers() {

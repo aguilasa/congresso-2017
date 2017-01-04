@@ -6,18 +6,15 @@ import { Storage } from '@ionic/storage';
 import { ConferenceApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
-import { PopoverPage } from '../pages/about-popover/about-popover';
 import { MapPage } from '../pages/map/map';
 import { SchedulePage } from '../pages/schedule/schedule';
-import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
 import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs/tabs';
-import { SupportPage } from '../pages/support/support';
+import { MusicListPage } from '../pages/music-list/music-list';
 
 import { ConferenceData } from '../providers/conference-data';
-import { UserData } from '../providers/user-data';
 
 
 @NgModule({
@@ -25,14 +22,12 @@ import { UserData } from '../providers/user-data';
     ConferenceApp,
     AboutPage,
     MapPage,
-    PopoverPage,
     SchedulePage,
-    ScheduleFilterPage,
     SessionDetailPage,
     SpeakerDetailPage,
     SpeakerListPage,
     TabsPage,
-    SupportPage
+    MusicListPage
   ],
   imports: [
     IonicModule.forRoot(ConferenceApp)
@@ -42,15 +37,13 @@ import { UserData } from '../providers/user-data';
     ConferenceApp,
     AboutPage,
     MapPage,
-    PopoverPage,
     SchedulePage,
-    ScheduleFilterPage,
     SessionDetailPage,
     SpeakerDetailPage,
     SpeakerListPage,
     TabsPage,
-    SupportPage
+    MusicListPage
   ],
-  providers: [ConferenceData, UserData, Storage]
+  providers: [ConferenceData, Storage]
 })
 export class AppModule { }

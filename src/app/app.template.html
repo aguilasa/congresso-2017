@@ -11,10 +11,10 @@
 
     <ion-list>
       <ion-list-header>
-        Navigate
+        38° Congresso
       </ion-list-header>
       <button ion-item menuClose *ngFor="let p of appPages" (click)="openPage(p)">
-        <ion-icon item-left [name]="p.icon"></ion-icon>
+        <ion-icon item-left [name]="p.icon" color="primary"></ion-icon>
         {{p.title}}
       </button>
     </ion-list>
