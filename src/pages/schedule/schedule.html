@@ -5,28 +5,21 @@
     </button>
 
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
-      <ion-segment-button value="sab">
+      <ion-segment-button value="0">
         Sáb
       </ion-segment-button>
-      <ion-segment-button value="dom">
+      <ion-segment-button value="1">
         Dom
       </ion-segment-button>
-      <ion-segment-button value="seg">
+      <ion-segment-button value="2">
         Seg
       </ion-segment-button>
-      <ion-segment-button value="ter">
+      <ion-segment-button value="3">
         Ter
       </ion-segment-button>
     </ion-segment>
   </ion-navbar>
 
-  <ion-toolbar no-border-top>
-    <ion-searchbar color="primary"
-                   [(ngModel)]="queryText"
-                   (ionInput)="updateSchedule()"
-                   placeholder="Buscar">
-    </ion-searchbar>
-  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -40,7 +33,7 @@
         </ion-label>
       </ion-item-divider>
 
-      <ion-item *ngFor="let session of group.sessions" #slidingItem [attr.track]="session.tracks[0] | lowercase" [hidden]="session.hide">
+      <ion-item *ngFor="let session of group.sessions" [attr.opt]="session.opt" [hidden]="session.hide">
 
         <button ion-item (click)="goToSessionDetail(session)">
           <h3>{{session.name}}</h3>

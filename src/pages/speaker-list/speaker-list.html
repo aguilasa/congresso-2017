@@ -22,7 +22,7 @@
     <ion-card-content class="outer-content">
       <ion-list>
         <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
-          <h3>{{session.name}}</h3>
+          <h3>{{session.title}}</h3>
         </button>
 
         <button ion-item (click)="goToSpeakerDetail(speaker)">
@@ -32,7 +32,7 @@
     </ion-card-content>
 
     <ion-row no-padding>
-      <ion-col>
+      <ion-col [hidden]="speaker.twitter === ''">
         <button ion-button clear small color="primary" icon-left (click)="goToSpeakerTwitter(speaker)">
           <ion-icon name="logo-twitter"></ion-icon>
           Tweet

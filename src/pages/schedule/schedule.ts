@@ -15,8 +15,7 @@ export class SchedulePage {
 
   dayIndex = 0;
   queryText = '';
-  segment = 'sab';
-  excludeTracks = [];
+  segment = '0';
   shownSessions: any = [];
   groups = [];
   confDate: string;
@@ -36,7 +35,8 @@ export class SchedulePage {
   }
 
   updateSchedule() {
-    this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe(data => {
+    this.dayIndex = parseInt(this.segment);
+    this.confData.getTimeline(this.dayIndex, this.queryText).subscribe(data => {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
     });

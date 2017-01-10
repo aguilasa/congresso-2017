@@ -16,7 +16,13 @@ export class SpeakerListPage {
   actionSheet: ActionSheet;
   speakers = [];
 
-  constructor(public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public confData: ConferenceData, public config: Config) {}
+  constructor(
+    public actionSheetCtrl: ActionSheetController, 
+    public navCtrl: NavController, 
+    public confData: ConferenceData, 
+    public config: Config) {
+      
+    }
 
   ionViewDidLoad() {
     this.confData.getSpeakers().subscribe(speakers => {
@@ -43,7 +49,7 @@ export class SpeakerListPage {
       title: 'Contatar ' + speaker.name,
       buttons: [
         {
-          text: `Email ( ${speaker.email} )`,
+          text: `${speaker.email}`,
           icon: mode !== 'ios' ? 'mail' : null,
           handler: () => {
             window.open('mailto:' + speaker.email);

@@ -27,7 +27,7 @@ export class ConferenceData {
     // build up the data by linking speakers to sessions
     this.data = data.json();
 
-    this.data.tracks = [];
+    let isOn: boolean = true;
 
     // loop through each day in the schedule
     this.data.schedule.forEach(day => {
@@ -35,6 +35,8 @@ export class ConferenceData {
       day.groups.forEach(group => {
         // loop through each session in the timeline group
         group.sessions.forEach(session => {
+          session.opt = isOn ? "even" : "odd";
+          isOn = !isOn;
           session.speakers = [];
           if (session.speakerNames) {
             session.speakerNames.forEach(speakerName => {
@@ -47,13 +49,6 @@ export class ConferenceData {
             });
           }
 
-          if (session.tracks) {
-            session.tracks.forEach(track => {
-              if (this.data.tracks.indexOf(track) < 0) {
-                this.data.tracks.push(track);
-              }
-            });
-          }
         });
       });
     });
@@ -61,7 +56,7 @@ export class ConferenceData {
     return this.data;
   }
 
-  getTimeline(dayIndex, queryText = '', excludeTracks = [], segment = 'all') {
+  getTimeline(dayIndex, queryText = '') {
     return this.load().map(data => {
       let day = data.schedule[dayIndex];
       day.shownSessions = 0;
@@ -74,7 +69,7 @@ export class ConferenceData {
 
         group.sessions.forEach(session => {
           // check if this session should show or not
-          this.filterSession(session, queryWords, excludeTracks, segment);
+          this.filterSession(session, queryWords);
 
           if (!session.hide) {
             // if this session is not hidden then this group should show
@@ -89,7 +84,7 @@ export class ConferenceData {
     });
   }
 
-  filterSession(session, queryWords, excludeTracks, segment) {
+  filterSession(session, queryWords) {
 
     let matchesQueryText = false;
     if (queryWords.length) {
@@ -104,32 +99,16 @@ export class ConferenceData {
       matchesQueryText = true;
     }
 
-    // if any of the sessions tracks are not in the
-    // exclude tracks then this session passes the track test
-    let matchesTracks = false;
-    session.tracks.forEach(trackName => {
-      if (excludeTracks.indexOf(trackName) === -1) {
-        matchesTracks = true;
-      }
-    });
-
-    // all tests must be true if it should not be hidden
-    session.hide = !(matchesQueryText && matchesTracks);
+     session.hide = !matchesQueryText;
   }
 
   getSpeakers() {
     return this.load().map(data => {
       return data.speakers.sort((a, b) => {
-        let aName = a.name.split(' ').pop();
-        let bName = b.name.split(' ').pop();
+        let aName = a.name; //.split(' ').pop();
+        let bName = b.name; //.split(' ').pop();
         return aName.localeCompare(bName);
       });
-    });
-  }
-
-  getTracks() {
-    return this.load().map(data => {
-      return data.tracks.sort();
     });
   }
 

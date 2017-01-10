@@ -1,299 +1,490 @@
 {
-
-  "schedule": [{
-    "date": "2017-02-25",
-    "groups": [{
-      "time": "8:00 am",
-      "sessions": [{
-        "name": "Breakfast",
-        "timeStart": "8:00 am",
-        "timeEnd": "9:00 am",
-        "location": "Main hallway",
-        "tracks": ["Food"]
-      }]
-    }, {
-      "time": "9:00 am",
-      "sessions": [{
-        "name": "Introduction to Appcamp.io",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ellie Elephant"],
-        "timeStart": "9:00 am",
-        "timeEnd": "9:30 am",
-        "tracks": ["Ionic"]
-      }, {
-        "name": "Getting started with Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
-        "timeStart": "9:30 am",
-        "timeEnd": "9:45 am",
-        "tracks": ["Ionic"]
-      }, {
-        "name": "Tooling for Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit"],
-        "timeStart": "9:45 am",
-        "timeEnd": "10:00 am",
-        "tracks": ["Tooling"]
-      }]
-    }, {
-      "time": "10:00 am",
-      "sessions": [{
-        "name": "Migrating to Ionic2",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Eva Eagle", "Lionel Lion"],
-        "timeStart": "10:00 am",
-        "timeEnd": "10:15 am",
-        "tracks": ["Ionic"]
-      }, {
-        "name": "The evolution of Ionicons",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Eva Eagle"],
-        "timeStart": "10:15 am",
-        "timeEnd": "10:30 am",
-        "tracks": ["Design"]
-      }, {
-        "name": "Ionic.io Services",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Charlie Cheetah"],
-        "timeStart": "10:30 am",
-        "timeEnd": "11:00 am",
-        "tracks": ["Services"]
-      }]
-    }, {
-      "time": "11:00 am",
-      "sessions": [{
-        "name": "Ionic Workshop",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Karl Kitten", "Lionel Lion"],
-        "timeStart": "11:00 am",
-        "timeEnd": "11:45 am",
-        "tracks": ["Workshop"]
-      }, {
-        "name": "Community Interaction",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-        "timeStart": "11:30 am",
-        "timeEnd": "11:50 am",
-        "tracks": ["Communication"]
-      }, {
-        "name": "Navigation in Ionic",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-        "timeStart": "11:30 am",
-        "timeEnd": "12:00 pm",
-        "tracks": ["Navigation"]
-      }]
-    }, {
-      "time": "12:00 pm",
-      "sessions": [{
-        "name": "Lunch",
-        "location": "Auditorium",
-        "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-        "timeStart": "12:00 pm",
-        "timeEnd": "1:00 pm",
-        "tracks": ["Food"]
-      }]
-    }, {
-      "time": "1:00 pm",
-      "sessions": [{
-        "name": "Ionic in the Enterprise",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Paul Puppy"],
-        "timeStart": "1:00 pm",
-        "timeEnd": "1:15 pm",
-        "tracks": ["Communication"]
-      }, {
-        "name": "Ionic Worldwide",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Gino Giraffe"],
-        "timeStart": "1:15 pm",
-        "timeEnd": "1:30 pm",
-        "tracks": ["Communication"]
-      }, {
-        "name": "The Ionic package service",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Molly Mouse", "Burt Bear"],
-        "timeStart": "1:30 pm",
-        "timeEnd": "2:00 pm",
-        "tracks": ["Services"]
-      }]
-    }, {
-      "time": "2:00 pm",
-      "sessions": [{
-        "name": "Push Notifications in Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Burt Bear", "Charlie Cheetah"],
-        "timeStart": "2:00 pm",
-        "timeEnd": "2:30 pm",
-        "tracks": ["Services"]
-      }, {
-        "name": "Ionic Documentation",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Donald Duck"],
-        "timeStart": "2:30 pm",
-        "timeEnd": "2:45 pm",
-        "tracks": ["Documentation"]
-      }, {
-        "name": "UX planning in Ionic",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
-        "timeStart": "2:45 pm",
-        "timeEnd": "3:00 pm",
-        "tracks": ["Design"]
-      }]
-    }, {
-      "time": "3:00",
-      "sessions": [{
-        "name": "Directives in Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
-        "timeStart": "3:00 pm",
-        "timeEnd": "3:30 pm",
-        "tracks": ["Angular"]
-      }, {
-        "name": "Mobile States",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit"],
-        "timeStart": "3:30 pm",
-        "timeEnd": "3:45 pm",
-        "tracks": ["Navigation"]
-      }]
-    }]
-  }],
-
-
-  "speakers": [{
-    "name": "Dr. Roger M. Wanke",
-    "profilePic": "assets/img/speakers/roger_m_wanke.png",
-    "twitter": "",
-    "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
-    "location": "",
-    "email": "roger.wanke@flt.edu.br"
-  }, {
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "twitter": "ionicframework",
-    "about": "Burt is a Bear.",
-    "location": "Everywhere",
-    "email": "burt@example.com"
-  }, {
-    "name": "Charlie Cheetah",
-    "profilePic": "assets/img/speakers/cheetah.jpg",
-    "twitter": "ionicframework",
-    "about": "Charlie is a Cheetah.",
-    "location": "Everywhere",
-    "email": "charlie@example.com"
-  }, {
-    "name": "Donald Duck",
-    "profilePic": "assets/img/speakers/duck.jpg",
-    "twitter": "ionicframework",
-    "about": "Donald is a Duck.",
-    "location": "Everywhere",
-    "email": "donald@example.com"
-  }, {
-    "name": "Eva Eagle",
-    "profilePic": "assets/img/speakers/eagle.jpg",
-    "twitter": "ionicframework",
-    "about": "Eva is an Eagle.",
-    "location": "Everywhere",
-    "email": "eva@example.com"
-  }, {
-    "name": "Ellie Elephant",
-    "profilePic": "assets/img/speakers/elephant.jpg",
-    "twitter": "ionicframework",
-    "about": "Ellie is an Elephant.",
-    "location": "Everywhere",
-    "email": "ellie@example.com"
-  }, {
-    "name": "Gino Giraffe",
-    "profilePic": "assets/img/speakers/giraffe.jpg",
-    "twitter": "ionicframework",
-    "about": "Gino is a Giraffe.",
-    "location": "Everywhere",
-    "email": "gino@example.com"
-  }, {
-    "name": "Isabella Iguana",
-    "profilePic": "assets/img/speakers/iguana.jpg",
-    "twitter": "ionicframework",
-    "about": "Isabella is an Iguana.",
-    "location": "Everywhere",
-    "email": "isabella@example.com"
-  }, {
-    "name": "Karl Kitten",
-    "profilePic": "assets/img/speakers/kitten.jpg",
-    "twitter": "ionicframework",
-    "about": "Karl is a Kitten.",
-    "location": "Everywhere",
-    "email": "karl@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Lionel Lion",
-    "profilePic": "assets/img/speakers/lion.jpg",
-    "twitter": "ionicframework",
-    "about": "Lionel is a Lion.",
-    "location": "Everywhere",
-    "email": "lionel@example.com"
-  }, {
-    "name": "Molly Mouse",
-    "profilePic": "assets/img/speakers/mouse.jpg",
-    "twitter": "ionicframework",
-    "about": "Molly is a Mouse.",
-    "location": "Everywhere",
-    "email": "molly@example.com"
-  }, {
-    "name": "Paul Puppy",
-    "profilePic": "assets/img/speakers/puppy.jpg",
-    "twitter": "ionicframework",
-    "about": "Paul is a Puppy.",
-    "location": "Everywhere",
-    "email": "paul@example.com"
-  }, {
-    "name": "Rachel Rabbit",
-    "profilePic": "assets/img/speakers/rabbit.jpg",
-    "twitter": "ionicframework",
-    "about": "Rachel is a Rabbit.",
-    "location": "Everywhere",
-    "email": "rachel@example.com"
-  }, {
-    "name": "Ted Turtle",
-    "profilePic": "assets/img/speakers/turtle.jpg",
-    "twitter": "ionicframework",
-    "about": "Ted is a Turtle.",
-    "location": "Everywhere",
-    "email": "ted@example.com"
-  }],
-
-
-  "map": [{
-    "name": "Monona Terrace Convention Center",
-    "lat": 43.071584,
-    "lng": -89.380120,
-    "center": true
-  }, {
-    "name": "Ionic HQ",
-    "lat": 43.074395,
-    "lng": -89.381056
-  }, {
-    "name": "Afterparty - Brocach Irish Pub",
-    "lat": 43.07336,
-    "lng": -89.38335
-  }]
-
+   "schedule": [
+      {
+         "day": "2017-02-25",
+         "groups": [
+            {
+               "time": "06:00",
+               "sessions": [
+                  {
+                     "name": "Chegada",
+                     "description": "",
+                     "timeStart": "06:00",
+                     "timeEnd": "08:00",
+                     "location": "Portões de acesso"
+                  }
+               ]
+            },
+            {
+               "time": "08:00",
+               "sessions": [
+                  {
+                     "name": "Chegada e credenciamento",
+                     "location": "Faculdade Luterana de Teologia",
+                     "description": "Retirada de crachás, cadastramento de inscrições, inscrição para esportes individuais.",
+                     "timeStart": "08:00",
+                     "timeEnd": "17:00"
+                  }
+               ]
+            },
+            {
+               "time": "18:00",
+               "sessions": [
+                  {
+                     "name": "Jantar",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "18:15",
+                     "timeEnd": "20:30"
+                  }
+               ]
+            },
+            {
+               "time": "20:00",
+               "sessions": [
+                  {
+                     "name": "Abertura do Congresso",
+                     "location": "Pavilhão",
+                     "description": "Abertura do Congresso.<br/><br/>Louvor e Palestra.",
+                     "title": "Tema - Palestra 1",
+                     "speakerNames": [
+                        "Diego Probst"
+                     ],
+                     "timeStart": "20:30",
+                     "timeEnd": "22:00"
+                  }
+               ]
+            },
+            {
+               "time": "22:00",
+               "sessions": [
+                  {
+                     "name": "Celebração de Louvores",
+                     "location": "Pavilhão",
+                     "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+                     "timeStart": "22:00",
+                     "timeEnd": "23:15"
+                  }
+               ]
+            },
+            {
+               "time": "24:00",
+               "sessions": [
+                  {
+                     "name": "Silêncio",
+                     "location": "Todos.",
+                     "description": "Hora de silenciar.",
+                     "timeStart": "00:00",
+                     "timeEnd": "07:00"
+                  }
+               ]
+            }            
+         ]
+      },
+      {
+         "day": "2017-02-26",
+         "groups": [
+            {
+               "time": "07:00",
+               "sessions": [
+                  {
+                     "name": "Acordar",
+                     "description": "",
+                     "timeStart": "07:00",
+                     "timeEnd": "08:00",
+                     "location": "Todos"
+                  },
+                  {
+                     "name": "Acordando com Jesus",
+                     "description": "",
+                     "timeStart": "07:10",
+                     "timeEnd": "07:30",
+                     "location": "Pavilhão"
+                  },
+                  {
+                     "name": "Café",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "07:30",
+                     "timeEnd": "08:15"
+                  }
+               ]
+            },
+            {
+               "time": "08:00",
+               "sessions": [
+                  {
+                     "name": "Louvor e Palestra",
+                     "location": "Pavilhão",
+                     "description": "Louvor e Palestra.",
+                     "title": "Tema - Palestra 2",
+                     "speakerNames": [
+                        "Dr. Roger M. Wanke"
+                     ],
+                     "timeStart": "08:15",
+                     "timeEnd": "10:30"
+                  }
+               ]
+            },
+             {
+               "time": "10:00",
+               "sessions": [
+                  {
+                     "name": "Seminários",
+                     "location": "Diversos",
+                     "description": "Seminários.",
+                     "timeStart": "10:30",
+                     "timeEnd": "12:30"
+                  }
+               ]
+            },
+            {
+               "time": "12:00",
+               "sessions": [
+                  {
+                     "name": "Almoço",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "12:30",
+                     "timeEnd": "13:30"
+                  }
+               ]
+            },
+            {
+               "time": "13:00",
+               "sessions": [
+                  {
+                     "name": "Esporte e Tempo Livre",
+                     "location": "Quadras e diversos",
+                     "description": "Esportes e tempo livre.",
+                     "timeStart": "13:30",
+                     "timeEnd": "18:15"
+                  }
+               ]
+            },
+            {
+               "time": "18:00",
+               "sessions": [
+                  {
+                     "name": "Jantar",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "18:15",
+                     "timeEnd": "19:15"
+                  }
+               ]
+            },
+            {
+               "time": "20:00",
+               "sessions": [
+                  {
+                     "name": "Louvor e Palestra",
+                     "location": "Pavilhão",
+                     "description": "Louvor e Palestra.",
+                     "title": "Tema - Palestra 3",
+                     "speakerNames": [
+                        "Fabricio Fleck"
+                     ],
+                     "timeStart": "20:00",
+                     "timeEnd": "21:30"
+                  }
+               ]
+            },
+            {
+               "time": "21:00",
+               "sessions": [
+                  {
+                     "name": "Celebração de Louvores",
+                     "location": "Pavilhão",
+                     "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+                     "timeStart": "21:30",
+                     "timeEnd": "23:00"
+                  }
+               ]
+            },
+            {
+               "time": "24:00",
+               "sessions": [
+                  {
+                     "name": "Silêncio",
+                     "location": "Todos.",
+                     "description": "Hora de silenciar.",
+                     "timeStart": "00:00",
+                     "timeEnd": "07:00"
+                  }
+               ]
+            }            
+         ]
+      },
+      {
+         "day": "2017-02-27",
+         "groups": [
+            {
+               "time": "07:00",
+               "sessions": [
+                  {
+                     "name": "Acordar",
+                     "description": "",
+                     "timeStart": "07:00",
+                     "timeEnd": "08:00",
+                     "location": "Todos"
+                  },
+                  {
+                     "name": "Acordando com Jesus",
+                     "description": "",
+                     "timeStart": "07:10",
+                     "timeEnd": "07:30",
+                     "location": "Pavilhão"
+                  },
+                  {
+                     "name": "Café",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "07:30",
+                     "timeEnd": "08:15"
+                  }
+               ]
+            },
+            {
+               "time": "08:00",
+               "sessions": [
+                  {
+                     "name": "Louvor e Palestra",
+                     "location": "Pavilhão",
+                     "description": "Louvor e Palestra.",
+                     "title": "Tema - Palestra 4",
+                     "speakerNames": [
+                        "Reginaldo Francisco"
+                     ],
+                     "timeStart": "08:15",
+                     "timeEnd": "10:30"
+                  }
+               ]
+            },
+             {
+               "time": "10:00",
+               "sessions": [
+                  {
+                     "name": "Seminários",
+                     "location": "Diversos",
+                     "description": "Seminários.",
+                     "timeStart": "10:30",
+                     "timeEnd": "12:30"
+                  }
+               ]
+            },
+            {
+               "time": "12:00",
+               "sessions": [
+                  {
+                     "name": "Almoço",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "12:30",
+                     "timeEnd": "13:30"
+                  }
+               ]
+            },
+            {
+               "time": "13:00",
+               "sessions": [
+                  {
+                     "name": "Esporte e Tempo Livre",
+                     "location": "Quadras e diversos",
+                     "description": "Esportes e tempo livre.",
+                     "timeStart": "13:30",
+                     "timeEnd": "18:15"
+                  }
+               ]
+            },
+            {
+               "time": "18:00",
+               "sessions": [
+                  {
+                     "name": "Jantar",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "18:15",
+                     "timeEnd": "19:15"
+                  }
+               ]
+            },
+            {
+               "time": "20:00",
+               "sessions": [
+                  {
+                     "name": "Louvor e Palestra",
+                     "location": "Pavilhão",
+                     "description": "Louvor e Palestra.",
+                     "title": "Tema - Palestra 5",
+                     "speakerNames": [
+                        "Diego Probst"
+                     ],
+                     "timeStart": "20:00",
+                     "timeEnd": "21:30"
+                  }
+               ]
+            },
+            {
+               "time": "21:00",
+               "sessions": [
+                  {
+                     "name": "Celebração de Louvores",
+                     "location": "Pavilhão",
+                     "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+                     "timeStart": "21:30",
+                     "timeEnd": "23:00"
+                  }
+               ]
+            },
+            {
+               "time": "24:00",
+               "sessions": [
+                  {
+                     "name": "Silêncio",
+                     "location": "Todos.",
+                     "description": "Hora de silenciar.",
+                     "timeStart": "00:00",
+                     "timeEnd": "07:00"
+                  }
+               ]
+            }            
+         ]
+      },
+      {
+         "day": "2017-02-28",
+         "groups": [
+            {
+               "time": "07:00",
+               "sessions": [
+                  {
+                     "name": "Acordar",
+                     "description": "",
+                     "timeStart": "07:00",
+                     "timeEnd": "08:00",
+                     "location": "Todos"
+                  },
+                  {
+                     "name": "Acordando com Jesus",
+                     "description": "",
+                     "timeStart": "07:10",
+                     "timeEnd": "07:30",
+                     "location": "Pavilhão"
+                  },
+                  {
+                     "name": "Café",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "07:30",
+                     "timeEnd": "08:15"
+                  }
+               ]
+            },
+            {
+               "time": "08:00",
+               "sessions": [
+                  {
+                     "name": "Entrega de medalhas",
+                     "location": "Pavilhão",
+                     "description": "Entrega de medalhas.",
+                     "timeStart": "08:15",
+                     "timeEnd": "09:00"
+                  }
+               ]
+            },
+            {
+               "time": "09:00",
+               "sessions": [
+                  {
+                     "name": "Louvor e Palestra",
+                     "location": "Pavilhão",
+                     "description": "Louvor e Palestra.",
+                     "title": "Tema - Palestra 6",
+                     "speakerNames": [
+                        "Dr. Roger M. Wanke"
+                     ],
+                     "timeStart": "09:00",
+                     "timeEnd": "10:15"
+                  }
+               ]
+            },
+             {
+               "time": "10:00",
+               "sessions": [
+                  {
+                     "name": "Encerramento e limpeza",
+                     "location": "Diversos",
+                     "description": "Encerramento e limpeza.",
+                     "timeStart": "10:15",
+                     "timeEnd": "12:00"
+                  }
+               ]
+            },
+            {
+               "time": "12:00",
+               "sessions": [
+                  {
+                     "name": "Almoço e despedida",
+                     "location": "Acampamentos, quiosques",
+                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+                     "timeStart": "12:30",
+                     "timeEnd": "14:00"
+                  }
+               ]
+            }            
+         ]
+      }
+   ],
+   "speakers": [
+      {
+         "name": "Dr. Roger M. Wanke",
+         "profilePic": "assets/img/speakers/roger_m_wanke.png",
+         "twitter": "",
+         "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
+         "location": "",
+         "email": "roger.wanke@flt.edu.br"
+      },
+      {
+         "name": "Diego Probst",
+         "profilePic": "assets/img/speakers/diego_probst.png",
+         "twitter": "",
+         "about": "Missionário - Meuc São Bento do Sul/SC<br/><\/br>Natural de Ituporanga/SC.",
+         "location": "",
+         "email": "diego.probst@meuc.org.br"
+      },
+      {
+         "name": "Fabricio Fleck",
+         "profilePic": "assets/img/speakers/fabricio_fleck.png",
+         "twitter": "",
+         "about": "Missionário - Meuc Maripá/PR<br/><\/br>Natural de Panambi/RS.",
+         "location": "",
+         "email": "fabricio.fleck@meuc.org.br"
+      },
+      {
+         "name": "Reginaldo Francisco",
+         "profilePic": "assets/img/speakers/reginaldo.png",
+         "twitter": "BrotherRegis",
+         "about": "Missionário - Meuc Cascavel/PR<br/><\/br>Natural de São Paulo/SP.",
+         "location": "",
+         "email": "reginaldo.francisco@meuc.org.br"
+      }
+   ],
+   "map": [
+      {
+         "name": "Monona Terrace Convention Center",
+         "lat": 43.071583,
+         "lng": -89.38012,
+         "center": true
+      },
+      {
+         "name": "Ionic HQ",
+         "lat": 43.074394,
+         "lng": -89.38106
+      },
+      {
+         "name": "Afterparty - Brocach Irish Pub",
+         "lat": 43.07336,
+         "lng": -89.38335
+      }
+   ]
 }
