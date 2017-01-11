@@ -3,7 +3,9 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-
+    <ion-title>Programação</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="0">
         Sáb
@@ -18,7 +20,7 @@
         Ter
       </ion-segment-button>
     </ion-segment>
-  </ion-navbar>
+  </ion-toolbar>
 
 </ion-header>
 
@@ -51,7 +53,7 @@
   </ion-list>
 
   <ion-list-header [hidden]="shownSessions > 0">
-      Nenhuma programação encontrada
+    Nenhuma programação encontrada
   </ion-list-header>
 
 </ion-content>
