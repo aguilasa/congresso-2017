@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, List, ModalController, NavController, LoadingController } from 'ionic-angular';
+import { AlertController, App, List, ModalController, NavController, LoadingController, Slides } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 import { SessionDetailPage } from '../session-detail/session-detail';
@@ -12,13 +12,16 @@ import { SessionDetailPage } from '../session-detail/session-detail';
 })
 export class SchedulePage {
   @ViewChild('scheduleList', { read: List }) scheduleList: List;
+  @ViewChild('mySlider') slider: Slides;
 
   dayIndex = 0;
   queryText = '';
-  segment = '0';
+  segment = 'sab';
   shownSessions: any = [];
   groups = [];
   confDate: string;
+  slides: any;
+  segments: any;
 
   constructor(
     public alertCtrl: AlertController,
@@ -27,7 +30,10 @@ export class SchedulePage {
     public modalCtrl: ModalController,
     public navCtrl: NavController,
     public confData: ConferenceData
-  ) {}
+  ) {
+    this.slides = [{ id: "sab" }, { id: "dom" }, { id: "seg" }, { id: "ter" }];
+    this.segments = [{ id: "sab" }, { id: "dom" }, { id: "seg" }, { id: "ter" }];
+  }
 
   ionViewDidLoad() {
     this.app.setTitle('Programação');
@@ -35,11 +41,12 @@ export class SchedulePage {
   }
 
   updateSchedule() {
-    this.dayIndex = parseInt(this.segment);
+    this.dayIndex = this.getDayIndex(this.segment);
     this.confData.getTimeline(this.dayIndex, this.queryText).subscribe(data => {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
     });
+    this.slider.slideTo(this.dayIndex);
   }
 
   goToSessionDetail(sessionData) {
@@ -47,4 +54,17 @@ export class SchedulePage {
     // and pass in the session data
     this.navCtrl.push(SessionDetailPage, sessionData);
   }
+
+  getDayIndex(segmentValue) {
+    return this.segments.findIndex((seg) => {
+      return seg.id === segmentValue;
+    });
+  }
+
+  onSlideChanged(slider) {
+    const currentSlide = this.slides[slider.activeIndex];
+    this.segment = currentSlide.id;
+    console.log('Slide changed: ' + currentSlide.id);
+  }
+
 }
