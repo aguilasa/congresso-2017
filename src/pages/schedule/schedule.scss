@@ -14,6 +14,10 @@ page-schedule {
      padding-left: 10px;
    }
   }
+  
+  ion-item-divider ion-label {
+    text-align: left;
+  }
 }
 
 ion-slides {
