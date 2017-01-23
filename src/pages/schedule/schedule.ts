@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, List, ModalController, NavController, LoadingController, Slides } from 'ionic-angular';
+import { AlertController, App, List, ModalController, NavController, LoadingController, Slides, Content } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 import { SessionDetailPage } from '../session-detail/session-detail';
@@ -13,6 +13,7 @@ import { SessionDetailPage } from '../session-detail/session-detail';
 export class SchedulePage {
   @ViewChild('scheduleList', { read: List }) scheduleList: List;
   @ViewChild('mySlider') slider: Slides;
+  @ViewChild(Content) content: Content;
 
   dayIndex = 0;
   queryText = '';
@@ -41,6 +42,7 @@ export class SchedulePage {
   }
 
   updateSchedule() {
+    this.scrollToTop();
     this.dayIndex = this.getDayIndex(this.segment);
     this.confData.getTimeline(this.dayIndex, this.queryText).subscribe(data => {
       this.shownSessions = data.shownSessions;
@@ -65,6 +67,10 @@ export class SchedulePage {
     const currentSlide = this.slides[slider.activeIndex];
     this.segment = currentSlide.id;
     console.log('Slide changed: ' + currentSlide.id);
+  }
+
+  scrollToTop() {
+    this.content.scrollToTop();
   }
 
 }

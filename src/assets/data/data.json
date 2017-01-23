@@ -486,5 +486,87 @@
          "lat": 43.07336,
          "lng": -89.38335
       }
+   ],
+   "music": [
+     {
+       "name": "A Ele",
+       "artist": "Oficina G3",
+       "tone": "G"
+     },
+     {
+       "name": "Centro da Tua vontade",
+       "artist": "Nivea Soares",
+       "tone": "G"
+     },
+     {
+       "name": "Com todo o meu ser",
+       "artist": "Adhemar de Campos",
+       "tone": "E"
+     },
+     {
+       "name": "Como Ele nos amou",
+       "artist": "Kleber Lucas",
+       "tone": "D"
+     },
+     {
+       "name": "Diante da Cruz",
+       "artist": "Hillsong",
+       "tone": "E"
+     },
+     {
+       "name": "Do avesso",
+       "artist": "Paulo César Baruk",
+       "tone": "E"
+     },
+     {
+       "name": "Identidade",
+       "artist": "Anderson Freire",
+       "tone": "G"
+     },
+     {
+       "name": "Infinitamente mais",
+       "artist": "Resgate",
+       "tone": "E"
+     },
+     {
+       "name": "Jesus, Tu És maravilhoso",
+       "artist": "Paulo Gomes",
+       "tone": "F"
+     },
+     {
+       "name": "Justificados pela fé",
+       "artist": "Alvo Certo",
+       "tone": "F"
+     },
+     {
+       "name": "Mais que obedecer",
+       "artist": "Ingmar Aguiar",
+       "tone": "D"
+     },
+     {
+       "name": "O que buscar",
+       "artist": "Lucas 9",
+       "tone": "Dm"
+     },
+     {
+       "name": "Teu amor não falha",
+       "artist": "Nivea Soares",
+       "tone": "C"
+     },
+     {
+       "name": "Tome tudo de mim",
+       "artist": "Vineyard",
+       "tone": "G"
+     },
+     {
+       "name": "Tu És Deus",
+       "artist": "Megafone",
+       "tone": "D"
+     },
+     {
+       "name": "Você pode ter",
+       "artist": "João Alexandre",
+       "tone": "A"
+     }
    ]
 }
