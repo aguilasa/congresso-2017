@@ -1,15 +1,19 @@
 <ion-header>
-
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Músicas</ion-title>
   </ion-navbar>
-
 </ion-header>
-
-
 <ion-content padding>
-
+  <ion-list inset>
+    <button ion-item *ngFor="let music of musics" (click)="goToMusicDetail(music)" detail-none>
+      <ion-icon name="musical-notes" color="primary" item-left></ion-icon>
+          <h3>{{music.name}}</h3>
+          <p>
+            {{music.artist}}
+          </p>
+        </button>
+  </ion-list>
 </ion-content>

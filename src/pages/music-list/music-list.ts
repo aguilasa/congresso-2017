@@ -1,22 +1,27 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-/*
-  Generated class for the MusicList page.
+import { ConferenceData } from '../../providers/conference-data';
+import { MusicDetailPage } from '../music-detail/music-detail'
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-music-list',
   templateUrl: 'music-list.html'
 })
 export class MusicListPage {
+  musics = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams, public confData: ConferenceData) { }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MusicListPage');
+    this.confData.getMusics().subscribe(musics => {
+      this.musics = musics;
+    });
+  }
+
+  goToMusicDetail(music) {
+    this.navCtrl.push(MusicDetailPage, music);
+    console.log(music.name);
   }
 
 }

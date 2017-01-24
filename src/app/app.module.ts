@@ -13,6 +13,7 @@ import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs/tabs';
 import { MusicListPage } from '../pages/music-list/music-list';
+import { MusicDetailPage } from '../pages/music-detail/music-detail';
 
 import { ConferenceData } from '../providers/conference-data';
 
@@ -27,7 +28,8 @@ import { ConferenceData } from '../providers/conference-data';
     SpeakerDetailPage,
     SpeakerListPage,
     TabsPage,
-    MusicListPage
+    MusicListPage,
+    MusicDetailPage
   ],
   imports: [
     IonicModule.forRoot(ConferenceApp)
@@ -42,7 +44,8 @@ import { ConferenceData } from '../providers/conference-data';
     SpeakerDetailPage,
     SpeakerListPage,
     TabsPage,
-    MusicListPage
+    MusicListPage,
+    MusicDetailPage
   ],
   providers: [ConferenceData, Storage]
 })

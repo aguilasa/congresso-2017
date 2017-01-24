@@ -5,9 +5,8 @@
     </button>
     <ion-title>Programação</ion-title>
   </ion-navbar>
-
   <ion-toolbar>
-    <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
+    <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule(true)" padding>
       <ion-segment-button value="sab">
         Sáb
       </ion-segment-button>
@@ -22,25 +21,21 @@
       </ion-segment-button>
     </ion-segment>
   </ion-toolbar>
-
 </ion-header>
 
 <ion-content padding>
   <ion-slides #mySlider (ionDidChange)="onSlideChanged($event)">
     <ion-slide *ngFor="let slide of slides">
-      <ion-list #scheduleList [hidden]="shownSessions === 0">
-
-        <ion-item-group *ngFor="let group of groups" [hidden]="group.hide">
-
+      <ion-list #scheduleList>
+        <ion-item-group *ngFor="let group of slide.groups">
           <ion-item-divider sticky>
             <ion-label>
               {{group.time}}
             </ion-label>
           </ion-item-divider>
 
-          <ion-item *ngFor="let session of group.sessions" [attr.opt]="session.opt" [hidden]="session.hide">
-
-            <button ion-item (click)="goToSessionDetail(session)">
+          <ion-item *ngFor="let session of group.sessions" [attr.opt]="session.opt">
+            <button ion-item (click)="goToSessionDetail(session)" detail-none>
           <h3>{{session.name}}</h3>
           <p>
             {{session.timeStart}} &mdash;
@@ -48,17 +43,10 @@
             {{session.location}}
           </p>
         </button>
-
           </ion-item>
 
         </ion-item-group>
-
       </ion-list>
-
-      <ion-list-header [hidden]="shownSessions > 0">
-        Nenhuma programação encontrada
-      </ion-list-header>
     </ion-slide>
   </ion-slides>
-
 </ion-content>

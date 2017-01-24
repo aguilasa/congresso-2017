@@ -16,13 +16,8 @@ export class SchedulePage {
   @ViewChild(Content) content: Content;
 
   dayIndex = 0;
-  queryText = '';
   segment = 'sab';
-  shownSessions: any = [];
-  groups = [];
-  confDate: string;
-  slides: any;
-  segments: any;
+  slides: any = [{ day: 0, segment: "sab" }, { day: 1, segment: "dom" }, { day: 2, segment: "seg" }, { day: 3, segment: "ter" }];
 
   constructor(
     public alertCtrl: AlertController,
@@ -32,41 +27,42 @@ export class SchedulePage {
     public navCtrl: NavController,
     public confData: ConferenceData
   ) {
-    this.slides = [{ id: "sab" }, { id: "dom" }, { id: "seg" }, { id: "ter" }];
-    this.segments = [{ id: "sab" }, { id: "dom" }, { id: "seg" }, { id: "ter" }];
+    for (let slide of this.slides) {
+      this.confData.getTimeline(slide.day).subscribe(data => {
+        slide.groups = data.groups;
+      });
+    }
   }
 
   ionViewDidLoad() {
     this.app.setTitle('Programação');
-    this.updateSchedule();
+    this.updateSchedule(false);
   }
 
-  updateSchedule() {
+  updateSchedule(doSlide) {
     this.scrollToTop();
     this.dayIndex = this.getDayIndex(this.segment);
-    this.confData.getTimeline(this.dayIndex, this.queryText).subscribe(data => {
-      this.shownSessions = data.shownSessions;
-      this.groups = data.groups;
-    });
-    this.slider.slideTo(this.dayIndex);
+    
+    if (doSlide) {
+      this.slider.slideTo(this.dayIndex);
+    }
   }
 
   goToSessionDetail(sessionData) {
-    // go to the session detail page
-    // and pass in the session data
     this.navCtrl.push(SessionDetailPage, sessionData);
   }
 
   getDayIndex(segmentValue) {
-    return this.segments.findIndex((seg) => {
-      return seg.id === segmentValue;
+    return this.slides.findIndex((seg) => {
+      return seg.segment === segmentValue;
     });
   }
 
   onSlideChanged(slider) {
     const currentSlide = this.slides[slider.activeIndex];
-    this.segment = currentSlide.id;
-    console.log('Slide changed: ' + currentSlide.id);
+    this.segment = currentSlide.segment;
+    this.updateSchedule(false);
+    console.log('Slide changed: ' + currentSlide.segment);
   }
 
   scrollToTop() {

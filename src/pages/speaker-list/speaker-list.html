@@ -6,10 +6,8 @@
     <ion-title>Palestrantes</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content class="outer-content speaker-list">
   <ion-card *ngFor="let speaker of speakers" class="speaker-card">
-
     <ion-card-header>
       <button ion-item detail-none (click)="goToSpeakerDetail(speaker)">
         <ion-avatar item-left>
@@ -18,19 +16,16 @@
         {{speaker.name}}
       </button>
     </ion-card-header>
-
     <ion-card-content class="outer-content">
       <ion-list>
         <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
           <h3>{{session.title}}</h3>
         </button>
-
         <button ion-item (click)="goToSpeakerDetail(speaker)">
           <h3>Sobre: {{speaker.name}}</h3>
         </button>
       </ion-list>
     </ion-card-content>
-
     <ion-row no-padding>
       <ion-col [hidden]="speaker.twitter === ''">
         <button ion-button clear small color="primary" icon-left (click)="goToSpeakerTwitter(speaker)">
@@ -45,6 +40,5 @@
         </button>
       </ion-col>
     </ion-row>
-
   </ion-card>
 </ion-content>
