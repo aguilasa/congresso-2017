@@ -66,7 +66,7 @@ export class ConferenceData {
   getSpeakers() {
     return this.load().map(data => {
       return data.speakers.sort((a, b) => {
-        let aName = a.name; 
+        let aName = a.name;
         let bName = b.name;
         return aName.localeCompare(bName);
       });
@@ -80,12 +80,22 @@ export class ConferenceData {
   }
 
   getMusics() {
-    return this.load().map(data =>{
+    return this.load().map(data => {
       return data.musics.sort((a, b) => {
         let aName = a.name;
         let bName = b.name;
         return aName.localeCompare(bName);
       });
+    });
+  }
+
+  getSequenceByTone(tone) {
+    return this.load().map(data => {
+      for (let t of data.tones) {
+        if (t.tone === tone) {
+          return t.sequence;
+        }
+      }
     });
   }
 

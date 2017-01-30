@@ -1,572 +1,822 @@
 {
-   "schedule": [
-      {
-         "day": "2017-02-25",
-         "groups": [
+  "schedule": [
+    {
+      "day": "2017-02-25",
+      "groups": [
+        {
+          "time": "06:00",
+          "sessions": [
             {
-               "time": "06:00",
-               "sessions": [
-                  {
-                     "name": "Chegada",
-                     "description": "",
-                     "timeStart": "06:00",
-                     "timeEnd": "08:00",
-                     "location": "Portões de acesso"
-                  }
-               ]
+              "name": "Chegada",
+              "description": "",
+              "timeStart": "06:00",
+              "timeEnd": "08:00",
+              "location": "Portões de acesso"
+            }
+          ]
+        },
+        {
+          "time": "08:00",
+          "sessions": [
+            {
+              "name": "Chegada e credenciamento",
+              "location": "Faculdade Luterana de Teologia",
+              "description": "Retirada de crachás, cadastramento de inscrições, inscrição para esportes individuais.",
+              "timeStart": "08:00",
+              "timeEnd": "17:00"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "sessions": [
+            {
+              "name": "Jantar",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "18:15",
+              "timeEnd": "20:30"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "sessions": [
+            {
+              "name": "Abertura do Congresso",
+              "location": "Pavilhão",
+              "description": "Abertura do Congresso.<br/><br/>Louvor e Palestra.",
+              "title": "Tema - Palestra 1",
+              "speakerNames": [
+                "Diego Probst"
+              ],
+              "timeStart": "20:30",
+              "timeEnd": "22:00"
+            }
+          ]
+        },
+        {
+          "time": "22:00",
+          "sessions": [
+            {
+              "name": "Celebração de Louvores",
+              "location": "Pavilhão",
+              "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+              "timeStart": "22:00",
+              "timeEnd": "23:15"
+            }
+          ]
+        },
+        {
+          "time": "24:00",
+          "sessions": [
+            {
+              "name": "Silêncio",
+              "location": "Todos.",
+              "description": "Hora de silenciar.",
+              "timeStart": "00:00",
+              "timeEnd": "07:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "2017-02-26",
+      "groups": [
+        {
+          "time": "07:00",
+          "sessions": [
+            {
+              "name": "Acordar",
+              "description": "",
+              "timeStart": "07:00",
+              "timeEnd": "08:00",
+              "location": "Todos"
             },
             {
-               "time": "08:00",
-               "sessions": [
-                  {
-                     "name": "Chegada e credenciamento",
-                     "location": "Faculdade Luterana de Teologia",
-                     "description": "Retirada de crachás, cadastramento de inscrições, inscrição para esportes individuais.",
-                     "timeStart": "08:00",
-                     "timeEnd": "17:00"
-                  }
-               ]
+              "name": "Acordando com Jesus",
+              "description": "",
+              "timeStart": "07:10",
+              "timeEnd": "07:30",
+              "location": "Pavilhão"
             },
             {
-               "time": "18:00",
-               "sessions": [
-                  {
-                     "name": "Jantar",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "18:15",
-                     "timeEnd": "20:30"
-                  }
-               ]
+              "name": "Café",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "07:30",
+              "timeEnd": "08:15"
+            }
+          ]
+        },
+        {
+          "time": "08:00",
+          "sessions": [
+            {
+              "name": "Louvor e Palestra",
+              "location": "Pavilhão",
+              "description": "Louvor e Palestra.",
+              "title": "Tema - Palestra 2",
+              "speakerNames": [
+                "Dr. Roger M. Wanke"
+              ],
+              "timeStart": "08:15",
+              "timeEnd": "10:30"
+            }
+          ]
+        },
+        {
+          "time": "10:00",
+          "sessions": [
+            {
+              "name": "Seminários",
+              "location": "Diversos",
+              "description": "Seminários.",
+              "timeStart": "10:30",
+              "timeEnd": "12:30"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "sessions": [
+            {
+              "name": "Almoço",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "12:30",
+              "timeEnd": "13:30"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "sessions": [
+            {
+              "name": "Esporte e Tempo Livre",
+              "location": "Quadras e diversos",
+              "description": "Esportes e tempo livre.",
+              "timeStart": "13:30",
+              "timeEnd": "18:15"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "sessions": [
+            {
+              "name": "Jantar",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "18:15",
+              "timeEnd": "19:15"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "sessions": [
+            {
+              "name": "Louvor e Palestra",
+              "location": "Pavilhão",
+              "description": "Louvor e Palestra.",
+              "title": "Tema - Palestra 3",
+              "speakerNames": [
+                "Fabricio Fleck"
+              ],
+              "timeStart": "20:00",
+              "timeEnd": "21:30"
+            }
+          ]
+        },
+        {
+          "time": "21:00",
+          "sessions": [
+            {
+              "name": "Celebração de Louvores",
+              "location": "Pavilhão",
+              "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+              "timeStart": "21:30",
+              "timeEnd": "23:00"
+            }
+          ]
+        },
+        {
+          "time": "24:00",
+          "sessions": [
+            {
+              "name": "Silêncio",
+              "location": "Todos.",
+              "description": "Hora de silenciar.",
+              "timeStart": "00:00",
+              "timeEnd": "07:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "2017-02-27",
+      "groups": [
+        {
+          "time": "07:00",
+          "sessions": [
+            {
+              "name": "Acordar",
+              "description": "",
+              "timeStart": "07:00",
+              "timeEnd": "08:00",
+              "location": "Todos"
             },
             {
-               "time": "20:00",
-               "sessions": [
-                  {
-                     "name": "Abertura do Congresso",
-                     "location": "Pavilhão",
-                     "description": "Abertura do Congresso.<br/><br/>Louvor e Palestra.",
-                     "title": "Tema - Palestra 1",
-                     "speakerNames": [
-                        "Diego Probst"
-                     ],
-                     "timeStart": "20:30",
-                     "timeEnd": "22:00"
-                  }
-               ]
+              "name": "Acordando com Jesus",
+              "description": "",
+              "timeStart": "07:10",
+              "timeEnd": "07:30",
+              "location": "Pavilhão"
             },
             {
-               "time": "22:00",
-               "sessions": [
-                  {
-                     "name": "Celebração de Louvores",
-                     "location": "Pavilhão",
-                     "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
-                     "timeStart": "22:00",
-                     "timeEnd": "23:15"
-                  }
-               ]
+              "name": "Café",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "07:30",
+              "timeEnd": "08:15"
+            }
+          ]
+        },
+        {
+          "time": "08:00",
+          "sessions": [
+            {
+              "name": "Louvor e Palestra",
+              "location": "Pavilhão",
+              "description": "Louvor e Palestra.",
+              "title": "Tema - Palestra 4",
+              "speakerNames": [
+                "Reginaldo Francisco"
+              ],
+              "timeStart": "08:15",
+              "timeEnd": "10:30"
+            }
+          ]
+        },
+        {
+          "time": "10:00",
+          "sessions": [
+            {
+              "name": "Seminários",
+              "location": "Diversos",
+              "description": "Seminários.",
+              "timeStart": "10:30",
+              "timeEnd": "12:30"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "sessions": [
+            {
+              "name": "Almoço",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "12:30",
+              "timeEnd": "13:30"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "sessions": [
+            {
+              "name": "Esporte e Tempo Livre",
+              "location": "Quadras e diversos",
+              "description": "Esportes e tempo livre.",
+              "timeStart": "13:30",
+              "timeEnd": "18:15"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "sessions": [
+            {
+              "name": "Jantar",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "18:15",
+              "timeEnd": "19:15"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "sessions": [
+            {
+              "name": "Louvor e Palestra",
+              "location": "Pavilhão",
+              "description": "Louvor e Palestra.",
+              "title": "Tema - Palestra 5",
+              "speakerNames": [
+                "Diego Probst"
+              ],
+              "timeStart": "20:00",
+              "timeEnd": "21:30"
+            }
+          ]
+        },
+        {
+          "time": "21:00",
+          "sessions": [
+            {
+              "name": "Celebração de Louvores",
+              "location": "Pavilhão",
+              "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+              "timeStart": "21:30",
+              "timeEnd": "23:00"
+            }
+          ]
+        },
+        {
+          "time": "24:00",
+          "sessions": [
+            {
+              "name": "Silêncio",
+              "location": "Todos.",
+              "description": "Hora de silenciar.",
+              "timeStart": "00:00",
+              "timeEnd": "07:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "2017-02-28",
+      "groups": [
+        {
+          "time": "07:00",
+          "sessions": [
+            {
+              "name": "Acordar",
+              "description": "",
+              "timeStart": "07:00",
+              "timeEnd": "08:00",
+              "location": "Todos"
             },
             {
-               "time": "24:00",
-               "sessions": [
-                  {
-                     "name": "Silêncio",
-                     "location": "Todos.",
-                     "description": "Hora de silenciar.",
-                     "timeStart": "00:00",
-                     "timeEnd": "07:00"
-                  }
-               ]
-            }            
-         ]
-      },
-      {
-         "day": "2017-02-26",
-         "groups": [
-            {
-               "time": "07:00",
-               "sessions": [
-                  {
-                     "name": "Acordar",
-                     "description": "",
-                     "timeStart": "07:00",
-                     "timeEnd": "08:00",
-                     "location": "Todos"
-                  },
-                  {
-                     "name": "Acordando com Jesus",
-                     "description": "",
-                     "timeStart": "07:10",
-                     "timeEnd": "07:30",
-                     "location": "Pavilhão"
-                  },
-                  {
-                     "name": "Café",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "07:30",
-                     "timeEnd": "08:15"
-                  }
-               ]
+              "name": "Acordando com Jesus",
+              "description": "",
+              "timeStart": "07:10",
+              "timeEnd": "07:30",
+              "location": "Pavilhão"
             },
             {
-               "time": "08:00",
-               "sessions": [
-                  {
-                     "name": "Louvor e Palestra",
-                     "location": "Pavilhão",
-                     "description": "Louvor e Palestra.",
-                     "title": "Tema - Palestra 2",
-                     "speakerNames": [
-                        "Dr. Roger M. Wanke"
-                     ],
-                     "timeStart": "08:15",
-                     "timeEnd": "10:30"
-                  }
-               ]
-            },
-             {
-               "time": "10:00",
-               "sessions": [
-                  {
-                     "name": "Seminários",
-                     "location": "Diversos",
-                     "description": "Seminários.",
-                     "timeStart": "10:30",
-                     "timeEnd": "12:30"
-                  }
-               ]
-            },
+              "name": "Café",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "07:30",
+              "timeEnd": "08:15"
+            }
+          ]
+        },
+        {
+          "time": "08:00",
+          "sessions": [
             {
-               "time": "12:00",
-               "sessions": [
-                  {
-                     "name": "Almoço",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "12:30",
-                     "timeEnd": "13:30"
-                  }
-               ]
-            },
+              "name": "Entrega de medalhas",
+              "location": "Pavilhão",
+              "description": "Entrega de medalhas.",
+              "timeStart": "08:15",
+              "timeEnd": "09:00"
+            }
+          ]
+        },
+        {
+          "time": "09:00",
+          "sessions": [
             {
-               "time": "13:00",
-               "sessions": [
-                  {
-                     "name": "Esporte e Tempo Livre",
-                     "location": "Quadras e diversos",
-                     "description": "Esportes e tempo livre.",
-                     "timeStart": "13:30",
-                     "timeEnd": "18:15"
-                  }
-               ]
-            },
+              "name": "Louvor e Palestra",
+              "location": "Pavilhão",
+              "description": "Louvor e Palestra.",
+              "title": "Tema - Palestra 6",
+              "speakerNames": [
+                "Dr. Roger M. Wanke"
+              ],
+              "timeStart": "09:00",
+              "timeEnd": "10:15"
+            }
+          ]
+        },
+        {
+          "time": "10:00",
+          "sessions": [
             {
-               "time": "18:00",
-               "sessions": [
-                  {
-                     "name": "Jantar",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "18:15",
-                     "timeEnd": "19:15"
-                  }
-               ]
-            },
+              "name": "Encerramento e limpeza",
+              "location": "Diversos",
+              "description": "Encerramento e limpeza.",
+              "timeStart": "10:15",
+              "timeEnd": "12:00"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "sessions": [
             {
-               "time": "20:00",
-               "sessions": [
-                  {
-                     "name": "Louvor e Palestra",
-                     "location": "Pavilhão",
-                     "description": "Louvor e Palestra.",
-                     "title": "Tema - Palestra 3",
-                     "speakerNames": [
-                        "Fabricio Fleck"
-                     ],
-                     "timeStart": "20:00",
-                     "timeEnd": "21:30"
-                  }
-               ]
-            },
-            {
-               "time": "21:00",
-               "sessions": [
-                  {
-                     "name": "Celebração de Louvores",
-                     "location": "Pavilhão",
-                     "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
-                     "timeStart": "21:30",
-                     "timeEnd": "23:00"
-                  }
-               ]
-            },
-            {
-               "time": "24:00",
-               "sessions": [
-                  {
-                     "name": "Silêncio",
-                     "location": "Todos.",
-                     "description": "Hora de silenciar.",
-                     "timeStart": "00:00",
-                     "timeEnd": "07:00"
-                  }
-               ]
-            }            
-         ]
-      },
-      {
-         "day": "2017-02-27",
-         "groups": [
-            {
-               "time": "07:00",
-               "sessions": [
-                  {
-                     "name": "Acordar",
-                     "description": "",
-                     "timeStart": "07:00",
-                     "timeEnd": "08:00",
-                     "location": "Todos"
-                  },
-                  {
-                     "name": "Acordando com Jesus",
-                     "description": "",
-                     "timeStart": "07:10",
-                     "timeEnd": "07:30",
-                     "location": "Pavilhão"
-                  },
-                  {
-                     "name": "Café",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "07:30",
-                     "timeEnd": "08:15"
-                  }
-               ]
-            },
-            {
-               "time": "08:00",
-               "sessions": [
-                  {
-                     "name": "Louvor e Palestra",
-                     "location": "Pavilhão",
-                     "description": "Louvor e Palestra.",
-                     "title": "Tema - Palestra 4",
-                     "speakerNames": [
-                        "Reginaldo Francisco"
-                     ],
-                     "timeStart": "08:15",
-                     "timeEnd": "10:30"
-                  }
-               ]
-            },
-             {
-               "time": "10:00",
-               "sessions": [
-                  {
-                     "name": "Seminários",
-                     "location": "Diversos",
-                     "description": "Seminários.",
-                     "timeStart": "10:30",
-                     "timeEnd": "12:30"
-                  }
-               ]
-            },
-            {
-               "time": "12:00",
-               "sessions": [
-                  {
-                     "name": "Almoço",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "12:30",
-                     "timeEnd": "13:30"
-                  }
-               ]
-            },
-            {
-               "time": "13:00",
-               "sessions": [
-                  {
-                     "name": "Esporte e Tempo Livre",
-                     "location": "Quadras e diversos",
-                     "description": "Esportes e tempo livre.",
-                     "timeStart": "13:30",
-                     "timeEnd": "18:15"
-                  }
-               ]
-            },
-            {
-               "time": "18:00",
-               "sessions": [
-                  {
-                     "name": "Jantar",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "18:15",
-                     "timeEnd": "19:15"
-                  }
-               ]
-            },
-            {
-               "time": "20:00",
-               "sessions": [
-                  {
-                     "name": "Louvor e Palestra",
-                     "location": "Pavilhão",
-                     "description": "Louvor e Palestra.",
-                     "title": "Tema - Palestra 5",
-                     "speakerNames": [
-                        "Diego Probst"
-                     ],
-                     "timeStart": "20:00",
-                     "timeEnd": "21:30"
-                  }
-               ]
-            },
-            {
-               "time": "21:00",
-               "sessions": [
-                  {
-                     "name": "Celebração de Louvores",
-                     "location": "Pavilhão",
-                     "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
-                     "timeStart": "21:30",
-                     "timeEnd": "23:00"
-                  }
-               ]
-            },
-            {
-               "time": "24:00",
-               "sessions": [
-                  {
-                     "name": "Silêncio",
-                     "location": "Todos.",
-                     "description": "Hora de silenciar.",
-                     "timeStart": "00:00",
-                     "timeEnd": "07:00"
-                  }
-               ]
-            }            
-         ]
-      },
-      {
-         "day": "2017-02-28",
-         "groups": [
-            {
-               "time": "07:00",
-               "sessions": [
-                  {
-                     "name": "Acordar",
-                     "description": "",
-                     "timeStart": "07:00",
-                     "timeEnd": "08:00",
-                     "location": "Todos"
-                  },
-                  {
-                     "name": "Acordando com Jesus",
-                     "description": "",
-                     "timeStart": "07:10",
-                     "timeEnd": "07:30",
-                     "location": "Pavilhão"
-                  },
-                  {
-                     "name": "Café",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "07:30",
-                     "timeEnd": "08:15"
-                  }
-               ]
-            },
-            {
-               "time": "08:00",
-               "sessions": [
-                  {
-                     "name": "Entrega de medalhas",
-                     "location": "Pavilhão",
-                     "description": "Entrega de medalhas.",
-                     "timeStart": "08:15",
-                     "timeEnd": "09:00"
-                  }
-               ]
-            },
-            {
-               "time": "09:00",
-               "sessions": [
-                  {
-                     "name": "Louvor e Palestra",
-                     "location": "Pavilhão",
-                     "description": "Louvor e Palestra.",
-                     "title": "Tema - Palestra 6",
-                     "speakerNames": [
-                        "Dr. Roger M. Wanke"
-                     ],
-                     "timeStart": "09:00",
-                     "timeEnd": "10:15"
-                  }
-               ]
-            },
-             {
-               "time": "10:00",
-               "sessions": [
-                  {
-                     "name": "Encerramento e limpeza",
-                     "location": "Diversos",
-                     "description": "Encerramento e limpeza.",
-                     "timeStart": "10:15",
-                     "timeEnd": "12:00"
-                  }
-               ]
-            },
-            {
-               "time": "12:00",
-               "sessions": [
-                  {
-                     "name": "Almoço e despedida",
-                     "location": "Acampamentos, quiosques",
-                     "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                     "timeStart": "12:30",
-                     "timeEnd": "14:00"
-                  }
-               ]
-            }            
-         ]
-      }
-   ],
-   "speakers": [
-      {
-         "name": "Dr. Roger M. Wanke",
-         "profilePic": "assets/img/speakers/roger_m_wanke.png",
-         "twitter": "",
-         "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
-         "location": "",
-         "email": "roger.wanke@flt.edu.br"
-      },
-      {
-         "name": "Diego Probst",
-         "profilePic": "assets/img/speakers/diego_probst.png",
-         "twitter": "",
-         "about": "Missionário - Meuc São Bento do Sul/SC<br/><\/br>Natural de Ituporanga/SC.",
-         "location": "",
-         "email": "diego.probst@meuc.org.br"
-      },
-      {
-         "name": "Fabricio Fleck",
-         "profilePic": "assets/img/speakers/fabricio_fleck.png",
-         "twitter": "",
-         "about": "Missionário - Meuc Maripá/PR<br/><\/br>Natural de Panambi/RS.",
-         "location": "",
-         "email": "fabricio.fleck@meuc.org.br"
-      },
-      {
-         "name": "Reginaldo Francisco",
-         "profilePic": "assets/img/speakers/reginaldo.png",
-         "twitter": "BrotherRegis",
-         "about": "Missionário - Meuc Cascavel/PR<br/><\/br>Natural de São Paulo/SP.",
-         "location": "",
-         "email": "reginaldo.francisco@meuc.org.br"
-      }
-   ],
-   "map": [
-      {
-         "name": "Monona Terrace Convention Center",
-         "lat": 43.071583,
-         "lng": -89.38012,
-         "center": true
-      },
-      {
-         "name": "Ionic HQ",
-         "lat": 43.074394,
-         "lng": -89.38106
-      },
-      {
-         "name": "Afterparty - Brocach Irish Pub",
-         "lat": 43.07336,
-         "lng": -89.38335
-      }
-   ],
-   "musics": [
-     {
-       "name": "A Ele",
-       "artist": "Oficina G3",
-       "tone": "G"
-     },
-     {
-       "name": "Centro da Tua vontade",
-       "artist": "Nivea Soares",
-       "tone": "G"
-     },
-     {
-       "name": "Com todo o meu ser",
-       "artist": "Adhemar de Campos",
-       "tone": "E"
-     },
-     {
-       "name": "Como Ele nos amou",
-       "artist": "Kleber Lucas",
-       "tone": "D"
-     },
-     {
-       "name": "Diante da Cruz",
-       "artist": "Hillsong",
-       "tone": "E"
-     },
-     {
-       "name": "Do avesso",
-       "artist": "Paulo César Baruk",
-       "tone": "E"
-     },
-     {
-       "name": "Identidade",
-       "artist": "Anderson Freire",
-       "tone": "G"
-     },
-     {
-       "name": "Infinitamente mais",
-       "artist": "Resgate",
-       "tone": "E"
-     },
-     {
-       "name": "Jesus, Tu És maravilhoso",
-       "artist": "Paulo Gomes",
-       "tone": "F"
-     },
-     {
-       "name": "Justificados pela fé",
-       "artist": "Alvo Certo",
-       "tone": "F"
-     },
-     {
-       "name": "Mais que obedecer",
-       "artist": "Ingmar Aguiar",
-       "tone": "D"
-     },
-     {
-       "name": "O que buscar",
-       "artist": "Lucas 9",
-       "tone": "Dm"
-     },
-     {
-       "name": "Teu amor não falha",
-       "artist": "Nivea Soares",
-       "tone": "C"
-     },
-     {
-       "name": "Tome tudo de mim",
-       "artist": "Vineyard",
-       "tone": "G"
-     },
-     {
-       "name": "Tu És Deus",
-       "artist": "Megafone",
-       "tone": "D"
-     },
-     {
-       "name": "Você pode ter",
-       "artist": "João Alexandre",
-       "tone": "A"
-     }
-   ]
+              "name": "Almoço e despedida",
+              "location": "Acampamentos, quiosques",
+              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+              "timeStart": "12:30",
+              "timeEnd": "14:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Dr. Roger M. Wanke",
+      "profilePic": "assets/img/speakers/roger_m_wanke.png",
+      "twitter": "",
+      "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
+      "location": "",
+      "email": "roger.wanke@flt.edu.br"
+    },
+    {
+      "name": "Diego Probst",
+      "profilePic": "assets/img/speakers/diego_probst.png",
+      "twitter": "",
+      "about": "Missionário - Meuc São Bento do Sul/SC<br/><\/br>Natural de Ituporanga/SC.",
+      "location": "",
+      "email": "diego.probst@meuc.org.br"
+    },
+    {
+      "name": "Fabricio Fleck",
+      "profilePic": "assets/img/speakers/fabricio_fleck.png",
+      "twitter": "",
+      "about": "Missionário - Meuc Maripá/PR<br/><\/br>Natural de Panambi/RS.",
+      "location": "",
+      "email": "fabricio.fleck@meuc.org.br"
+    },
+    {
+      "name": "Reginaldo Francisco",
+      "profilePic": "assets/img/speakers/reginaldo.png",
+      "twitter": "BrotherRegis",
+      "about": "Missionário - Meuc Cascavel/PR<br/><\/br>Natural de São Paulo/SP.",
+      "location": "",
+      "email": "reginaldo.francisco@meuc.org.br"
+    }
+  ],
+  "map": [
+    {
+      "name": "Monona Terrace Convention Center",
+      "lat": 43.071583,
+      "lng": -89.38012,
+      "center": true
+    },
+    {
+      "name": "Ionic HQ",
+      "lat": 43.074394,
+      "lng": -89.38106
+    },
+    {
+      "name": "Afterparty - Brocach Irish Pub",
+      "lat": 43.07336,
+      "lng": -89.38335
+    }
+  ],
+  "musics": [
+    {
+      "name": "A Ele",
+      "artist": "Oficina G3",
+      "tone": "G",
+      "original": "G",
+      "minor": "false"
+    },
+    {
+      "name": "Centro da Tua vontade",
+      "artist": "Nivea Soares",
+      "tone": "G",
+      "original": "G",
+      "minor": "false"
+    },
+    {
+      "name": "Com todo o meu ser",
+      "artist": "Adhemar de Campos",
+      "tone": "E",
+      "original": "E",
+      "minor": "false"
+    },
+    {
+      "name": "Como Ele nos amou",
+      "artist": "Kleber Lucas",
+      "tone": "D",
+      "original": "D",
+      "minor": "false"
+    },
+    {
+      "name": "Diante da Cruz",
+      "artist": "Hillsong",
+      "tone": "E",
+      "original": "E",
+      "minor": "false"
+    },
+    {
+      "name": "Do avesso",
+      "artist": "Paulo César Baruk",
+      "tone": "E",
+      "original": "E",
+      "minor": "false"
+    },
+    {
+      "name": "Identidade",
+      "artist": "Anderson Freire",
+      "tone": "G",
+      "original": "G",
+      "minor": "false"
+    },
+    {
+      "name": "Infinitamente mais",
+      "artist": "Resgate",
+      "tone": "E",
+      "original": "E",
+      "minor": "false"
+    },
+    {
+      "name": "Jesus, Tu És maravilhoso",
+      "artist": "Paulo Gomes",
+      "tone": "F",
+      "original": "F",
+      "minor": "false"
+    },
+    {
+      "name": "Justificados pela fé",
+      "artist": "Alvo Certo",
+      "tone": "F",
+      "original": "F",
+      "minor": "false"
+    },
+    {
+      "name": "Mais que obedecer",
+      "artist": "Ingmar Aguiar",
+      "tone": "D",
+      "original": "D",
+      "minor": "false"
+    },
+    {
+      "name": "O que buscar",
+      "artist": "Lucas 9",
+      "tone": "D",
+      "original": "D",
+      "minor": "true"
+    },
+    {
+      "name": "Teu amor não falha",
+      "artist": "Nivea Soares",
+      "tone": "C",
+      "original": "C",
+      "minor": "false"
+    },
+    {
+      "name": "Tome tudo de mim",
+      "artist": "Vineyard",
+      "tone": "G",
+      "original": "G",
+      "minor": "false"
+    },
+    {
+      "name": "Tu És Deus",
+      "artist": "Megafone",
+      "tone": "D",
+      "original": "D",
+      "minor": "false"
+    },
+    {
+      "name": "Você pode ter",
+      "artist": "João Alexandre",
+      "tone": "A",
+      "original": "A",
+      "minor": "false"
+    }
+  ],
+  "tones": [
+    {
+      "id": "0",
+      "tone": "C",
+      "sequence": [
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    {
+      "id": "1",
+      "tone": "C#",
+      "sequence": [
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "2",
+      "tone": "D",
+      "sequence": [
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#"
+      ]
+    },
+    {
+      "id": "3",
+      "tone": "Eb",
+      "sequence": [
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D"
+      ]
+    },
+    {
+      "id": "4",
+      "tone": "E",
+      "sequence": [
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb"
+      ]
+    },
+    {
+      "id": "5",
+      "tone": "F",
+      "sequence": [
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E"
+      ]
+    },
+    {
+      "id": "6",
+      "tone": "F#",
+      "sequence": [
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "7",
+      "tone": "G",
+      "sequence": [
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#"
+      ]
+    },
+    {
+      "id": "8",
+      "tone": "G#",
+      "sequence": [
+        "G#",
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G"
+      ]
+    },
+    {
+      "id": "9",
+      "tone": "A",
+      "sequence": [
+        "A",
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#"
+      ]
+    },
+    {
+      "id": "10",
+      "tone": "Bb",
+      "sequence": [
+        "Bb",
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A"
+      ]
+    },
+    {
+      "id": "11",
+      "tone": "B",
+      "sequence": [
+        "B",
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb"
+      ]
+    }
+  ]
 }
