@@ -493,112 +493,112 @@
       "artist": "Oficina G3",
       "tone": "G",
       "original": "G",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Centro da Tua vontade",
       "artist": "Nivea Soares",
       "tone": "G",
       "original": "G",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Com todo o meu ser",
       "artist": "Adhemar de Campos",
       "tone": "E",
       "original": "E",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Como Ele nos amou",
       "artist": "Kleber Lucas",
       "tone": "D",
       "original": "D",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Diante da Cruz",
       "artist": "Hillsong",
       "tone": "E",
       "original": "E",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Do avesso",
       "artist": "Paulo César Baruk",
       "tone": "E",
       "original": "E",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Identidade",
       "artist": "Anderson Freire",
       "tone": "G",
       "original": "G",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Infinitamente mais",
       "artist": "Resgate",
       "tone": "E",
       "original": "E",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Jesus, Tu És maravilhoso",
       "artist": "Paulo Gomes",
       "tone": "F",
       "original": "F",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Justificados pela fé",
       "artist": "Alvo Certo",
       "tone": "F",
       "original": "F",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Mais que obedecer",
       "artist": "Ingmar Aguiar",
       "tone": "D",
       "original": "D",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "O que buscar",
       "artist": "Lucas 9",
       "tone": "D",
       "original": "D",
-      "minor": "true"
+      "minor": "m"
     },
     {
       "name": "Teu amor não falha",
       "artist": "Nivea Soares",
       "tone": "C",
       "original": "C",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Tome tudo de mim",
       "artist": "Vineyard",
       "tone": "G",
       "original": "G",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Tu És Deus",
       "artist": "Megafone",
       "tone": "D",
       "original": "D",
-      "minor": "false"
+      "minor": ""
     },
     {
       "name": "Você pode ter",
       "artist": "João Alexandre",
       "tone": "A",
       "original": "A",
-      "minor": "false"
+      "minor": ""
     }
   ],
   "tones": [

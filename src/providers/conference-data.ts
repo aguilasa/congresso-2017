@@ -53,6 +53,14 @@ export class ConferenceData {
       });
     });
 
+    this.data.musics.forEach(music => {
+      this.data.tones.forEach(tone => {
+        if (music.tone == tone.tone) {
+          music.sequence = tone.sequence;
+        }
+      });
+    });
+
     return this.data;
   }
 
@@ -89,13 +97,9 @@ export class ConferenceData {
     });
   }
 
-  getSequenceByTone(tone) {
+  getTones() {
     return this.load().map(data => {
-      for (let t of data.tones) {
-        if (t.tone === tone) {
-          return t.sequence;
-        }
-      }
+      return data.tones;
     });
   }
 

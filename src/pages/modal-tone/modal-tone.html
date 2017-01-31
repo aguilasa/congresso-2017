@@ -1,36 +1,23 @@
 <ion-header>
-
   <ion-navbar>
     <ion-title>Selecionar Tom</ion-title>
   </ion-navbar>
-
 </ion-header>
-
-
 <ion-content padding>
   <ion-grid>
-    <ion-row>
-      <ion-col width-20><button ion-button block>A</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">A#</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">B</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">C</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">C#</button></ion-col>
+    <ion-row *ngFor="let row of rows">
+      <ion-col width-25 *ngFor="let seq of row.sequences">
+        <button class="btnTone" ion-button block small color="{{seq.color}}" (click)="changeTone(seq)">
+          {{seq.tone}}{{music.minor}}
+          </button>
+      </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col width-20><button ion-button block color="light">D</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">Eb</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">E</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">F</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">F#</button></ion-col>
+      <ion-col><button ion-button block small color="light" (click)="restore(true)">Restaurar Tom</button></ion-col>
     </ion-row>
     <ion-row>
-      <ion-col width-20><button ion-button block color="light">G</button></ion-col>
-      <ion-col width-20><button ion-button block color="light">G#</button></ion-col>
-      <ion-col><button ion-button block color="light">Restaurar Tom</button></ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col width-50><button ion-button block>Cancelar</button></ion-col>
-      <ion-col width-50><button ion-button block (click)="confirmTone()">Ok</button></ion-col>
+      <ion-col width-50><button ion-button small block (click)="cancel()">Cancelar</button></ion-col>
+      <ion-col width-50><button ion-button small block (click)="confirmTone()">Ok</button></ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>

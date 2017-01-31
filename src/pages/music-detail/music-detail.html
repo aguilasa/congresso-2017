@@ -2,11 +2,6 @@
 
   <ion-navbar>
     <ion-title>{{music.name}}</ion-title>
-    <ion-buttons end>
-      <button ion-button icon-only>
-        <ion-icon name="settings"></ion-icon>
-      </button>
-    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
@@ -14,6 +9,57 @@
 
 <ion-content padding-left>
   <p><b>Autor/Artista: </b>{{music.artist}}</p>
-  <button ion-button color="light" small (click)="changeTone()">Tom: {{music.tone}}</button>
+
+  <button ion-button color="light" small (click)="changeTone()" class="btnTone">Tom: {{music.tone}}{{music.minor}}</button>
+
+  <pre>
+Intro.: | <b>[5]9</b> <b>[7]9</b> <b>[9]m</b> |
+
+<b>[9]m</b>   <b>[5]9</b>             <b>[0]9</b>
+Se eu pudesse explicar ao mundo
+        <b>[2]9</b>      <b>[5]9</b>        <b>[9]m</b>
+O que é andar contigo, Oh Deus!
+<b>[5]9</b>                     <b>[2]9</b>           <b>[1]</b>  <b>[5]9</b>    <b>[4]m</b>
+Minhas palavras não poderiam expressar
+              <b>[10]</b>    <b>[2]m</b>          <b>[7]9</b>           <b>[4]m</b>
+O Teu poder.  O Teu imutável amor
+                      <b>[10]</b>              <b>[2]m</b>               <b>[7]9</b>      <b>[9]</b>
+Falar de Quem foi, que é e sempre será Deus!
+
+
+                  <b>[5]9</b>   <b>[7]9</b>     <b>[9]</b>               <b>[5]9</b>      <b>[7]9</b>     <b>[9]</b>
+Cantem os povos ao Senhor.           A Ele      o    louvor
+            <b>[5]9</b>      <b>[7]9</b>     <b>[9]</b>                     <b>[5]9</b>   <b>[7]9</b>     <b>[9]</b>
+A majestade ao Rei dos reis. O verdadeiro Deus, o Eu Sou!
+
+
+<b>[9]m</b>           <b>[5]9</b>         <b>[0]</b>          <b>[2]</b>            <b>[5]9</b>      <b>[9]</b>
+Como poderia me calar.     Depois de O conhecer meu Deus
+   <b>[5]9</b>                    <b>[2]9</b>           <b>[1]</b>  <b>[5]9</b>  <b>[4]m</b>
+Será que alguém poderá entende|--e|--er
+               <b>[10]</b>        <b>[2]m</b>       <b>[7]9</b>             <b>[4]m</b>
+O Teu querer.  A Tua graça e Teu favor
+               <b>[10]</b>                <b>[2]m</b>             <b>[7]9</b>   <b>[9]</b>
+Aquele que foi, que é e sempre será Deus!
+         
+
+<b>[9]m</b>       <b>[4]m</b>             <b>[7]9</b>                <b>[2]9</b>    <b>[9]m</b>
+ O Teu entendimento não pode se medir
+                  <b>[4]m</b>          <b>[7]9</b>                  <b>[2]9</b>     <b>[9]m</b>
+Desde o princípio anuncia o que ha de vir
+        <b>[4]m</b>                   <b>[7]9</b>                <b>[2]9</b>          <b>[9]m</b>
+Vira o dia em que a verdade se revelara
+         <b>[4]m</b>           <b>[7]9</b>                <b>[5]9</b>
+E Tua gloria este mundo contemplará
+
+
+Intro + Passagem(solo):
+( <b>[5]9</b>   <b>[7]9</b>    <b>[9]</b>   <b>[2]m</b>  <b>[5]9</b>   <b>[9]m</b>  <b>[7]9</b>  <b>[2]m</b>  <b>[5]9</b>  <b>[9]m</b>  <b>[10]</b>)
+
+Passagem: (<b>[9]m</b>   <b>[0]9</b>  <b>[4]m</b>  <b>[2]9</b>)
+<b>[9]</b> <b>[11]#</b> <b>[9]</b> <b>[4]</b> <b>[11]#</b> <b>[9]</b> <b>[7]</b> <b>[0]</b> <b>[5]</b> <b>[7]</b> <b>[9]</b>
+
+  </pre>
+
 
 </ion-content>
