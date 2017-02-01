@@ -1,18 +1,3 @@
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>{{music.name}}</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding-left>
-  <p><b>Autor/Artista: </b>{{music.artist}}</p>
-
-  <button ion-button color="light" small (click)="changeTone()" class="btnTone">Tom: {{music.tone}}{{music.minor}}</button>
-
-  <pre>
 Intro.: | [5]9 [7]9 [9]m |
 
 [9]m          [5]9          [0]9
@@ -73,8 +58,3 @@ Passagem: ([9]m [0]9 [4]m [2]9)
 
 [9] [11]# [9] [4] [11]# 
 [9] [7] [0] [5] [7] [9]
-
-  </pre>
-
-
-</ion-content>
