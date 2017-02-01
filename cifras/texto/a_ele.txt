@@ -15,7 +15,6 @@ Falar de Quem foi, que é e sempre
       [7]9 [9]
 será Deus!
 
-
           [5]9 [7]9   [9]
 Cantem os povos ao Senhor.
  [5]9    [7]9    [9]
@@ -25,13 +24,14 @@ A majestade ao Rei dos reis.
         [5]9  [7]9 [9]
 O verdadeiro Deus, o Eu Sou!
 
-
 [9]m     [5]9     [0] 
 Como poderia me calar.     
   [2]    [5]9   [9]
 Depois de O conhecer meu Deus
- [5]9           [2]9       [1] [5]9 [4]m
-Será que alguém poderá entende|--e|--er
+ [5]9           [2]9
+Será que alguém poderá
+     [1] [5]9 [4]m
+entende|--e|--er
        [10]      [2]m  [7]9       [4]m
 O Teu querer.  A Tua graça e Teu favor
       [10]           [2]m
@@ -39,7 +39,6 @@ Aquele que foi, que é e sempre
   [7]9 [9]
 será Deus!
          
-
 [9]m   [4]m        [7]9        [2]9 [9]m
  O Teu entendimento não pode se medir
            [4]m      [7]9           [2]9 [9]m
