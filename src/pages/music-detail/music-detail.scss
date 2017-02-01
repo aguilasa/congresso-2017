@@ -2,5 +2,11 @@ page-music-detail {
     pre {
         padding: 0 1em 1.2em;
         white-space: pre-wrap;
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+    pre b {
+        color: color($colors, primary);
     }
 }

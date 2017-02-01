@@ -36,9 +36,10 @@ export class MapPage {
     this.slider.slideTo(selectedIndex);
   }
 
-  onSlideChanged(slider) {
+  onSlideChanged() {
     console.log('Slide changed');
-    const currentSlide = this.slides[slider.activeIndex];
+    
+    const currentSlide = this.slides[this.slider.getActiveIndex()];
     this.selectedSegment = currentSlide.id;
   }
 

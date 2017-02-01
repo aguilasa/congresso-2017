@@ -10,6 +10,7 @@ import { ConferenceData } from '../../providers/conference-data';
 export class ModalTonePage {
   music: any;
   rows: any;
+  canLeave: boolean = false;
 
   constructor(
     public navCtrl: NavController,
@@ -25,7 +26,12 @@ export class ModalTonePage {
     this.loadRowsSequence();
   }
 
+  ionViewCanLeave() {
+    return this.canLeave;
+  }
+
   confirmTone() {
+    this.canLeave = true;
     this.viewCtrl.dismiss(this.music);
   }
 
@@ -77,6 +83,7 @@ export class ModalTonePage {
   }
 
   cancel() {
+    this.canLeave = true;
     this.restore(false);
     this.viewCtrl.dismiss(this.music);
   }
