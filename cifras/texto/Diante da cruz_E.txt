@@ -1,10 +1,4 @@
-DIANTE DA CRUZ
-
-Artista:  ?
-Tom: F
-Bateria:  70 bpm
-
-Introdução:  |  A  E/G#  A | B | 2x
+Intro.:|  A  E/G#  A | B | 2x
 
 E/G#    A           B  C#m  E/G#  A     B 
 Oh, Deus, me sondas //  Conheces-me

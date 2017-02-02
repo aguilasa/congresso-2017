@@ -1,10 +1,4 @@
-DO AVESSO
-
-Artista: Paulo C B
-Tom: E
-Bateria:  88 bpm
-
-Introdução  |:  E  D  A/C#  :|
+Intro.:|:  E  D  A/C#  :|
 
 C#m                                E
 1. Tem maluco que põe o pé na estrada

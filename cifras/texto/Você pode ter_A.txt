@@ -1,9 +1,4 @@
-Você pode ter
-Artista:  João Alexandre
-Tom: A
-Bateria:  112 bpm
-Intro.:| E  A  |
-
+Intro.:| E  A |
 
 E           E/G#  A9                (D A E)
 Você pode ter a casa repleta de amigos,
@@ -43,5 +38,3 @@ Que se encontra com cristo!
 
 
 Solo (E  A ) 6x
-
-

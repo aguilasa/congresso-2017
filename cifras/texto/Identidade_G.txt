@@ -1,7 +1,4 @@
-Identidade
-Artista:  Anderson Freire
-Tom: G						Andamento:  84 bpm
-Intro.:| Em  D9  C  G  D9 C  D9  Em|
+Intro.:| Em  D9  C  G  D9 C  D9  Em |
 Em
    Não vou negar quem sou
              C

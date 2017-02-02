@@ -1,9 +1,4 @@
-Infinitamente mais
-
-Artista:  Resgate
-Tom: E
-Bateria:  100 bpm
-Intro.:   |     G#m  G#4  G#m  G#4  F#  E  F#  E | 2x 
+Intro.:| G#m  G#4  G#m  G#4  F#  E  F#  E | 2x 
 
 
 B                F#                 E
