@@ -1,17 +1,16 @@
-Intro.:|:  E  D  A/C#  :|
+Intro.:| E D A/C# |
 
 C#m                                E
-1. Tem maluco que põe o pé na estrada
+Tem maluco que põe o pé na estrada
 F#                D 
-Dizendo: “vou pra longe do Pai”
+Dizendo: "vou pra longe do Pai"
 C#m                          E
 Sai com a mochila cheia e tão pesada
               F#
 E pra seguir na estrada
 Vai ser difícil de carregar
-	
 
-2. Já não quer conselhos, já não quer saber de nada
+Já não quer conselhos, já não quer saber de nada
 O que ele quer é simplesmente se aventurar
 E arriscar a vida que por Deus foi dada
 Custe o que custar
@@ -21,7 +20,7 @@ Ele acredita que vai se dar bem
 E não vai depender da ajuda de ninguém
 
 E                                 D                                  A
-3. Não dá pra se esconder do Deus que tudo vê
+Não dá pra se esconder do Deus que tudo vê
                                                                          E
 Não precisa estar do avesso pra Ele Te conhecer
                                D                           A
@@ -37,5 +36,3 @@ Que se arrependeu e procurando paz
 D
 Mudou a rota pra casa
 Foi para os braços do Pai
-
-

@@ -1,4 +1,4 @@
-Intro.:|  A  E/G#  A | B | 2x
+Intro.:| A  E/G#  A | B | 2x
 
 E/G#    A           B  C#m  E/G#  A     B 
 Oh, Deus, me sondas //  Conheces-me
@@ -9,7 +9,7 @@ Estás presente  //  A me cercar
 Em todo tempo  //  Eu sei, me amas (2x)
 
 E    (F#)                    C#m (D#m)		    A  (B)
-E. Prostro-me diante da cruz, vejo o sangue de Jesus
+Prostro-me diante da cruz, vejo o sangue de Jesus
                                 B (C#)
 Nunca houve amor assim
 E  (F#)                C#m	(D#m)         	       A  (B)
@@ -28,10 +28,3 @@ Tudo consumado está :/
 
 E quando tudo  //  Se acabar
 Estarei seguro  //  Pois sei, me amas (2x)
-
-
-Sequencia: 1, 2, 3, intro, 4, 3, 3, 5, 3, 3, 6.
-
-
-
-
