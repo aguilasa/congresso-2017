@@ -10,12 +10,12 @@ Minhas palavras não poderiam
 expressar
         F    Am       D9       Bm
 O Teu poder. O Teu imutável amor
-              F            Am               
+              F            Am
 Falar de Quem foi, que é e sempre
      D9   E
 será Deus!
 
-          C9    D9   E               
+          C9    D9   E 
 Cantem os povos ao Senhor.
  C9      D9      E
 A Ele     o    louvor
@@ -32,24 +32,35 @@ Depois de O conhecer meu Deus
 Será que alguém poderá 
      G#  C9  Bm
 entende|--e|--er
-         F       Am     D9          Bm
-O Teu querer.  A Tua graça e Teu favor
+         F      Am     D9
+O Teu querer. A Tua graça e 
+        Bm
+Teu favor
          F           Am
 Aquele que foi, que é e sempre 
  D9    E
 será Deus!
 
-Em      Bm         D9           A9  Em
-O Teu entendimento não pode se medir
-            Bm         D9             A9 Em
-Desde o princípio anuncia o que há de vir
-       Bm              D9           A9 Em
-Virá o dia em que a verdade se revelará
-       Bm          D9            C9
-E Tua glória este mundo contemplará
+Em      Bm         D9
+O Teu entendimento não pode 
+    A9  Em
+se medir
+            Bm         D9
+Desde o princípio anuncia 
+            A9 Em
+o que há de vir
+       Bm              D9
+Virá o dia em que a verdade 
+        A9 Em
+se revelará
+       Bm          D9
+E Tua glória este mundo 
+      C9
+contemplará
 
 Intro + Passagem(solo):
-( C9 D9 E Am C9 Em D9 Am C9 Em F )
+(C9 D9 E Am C9 Em
+D9 Am C9 Em F )
 
 Passagem: 
 (Em G9 Bm A9)
