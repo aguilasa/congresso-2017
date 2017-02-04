@@ -1,38 +1,66 @@
 Intro.:| E D A/C# |
 
-C#m                                E
-Tem maluco que põe o pé na estrada
-F#                D 
-Dizendo: "vou pra longe do Pai"
-C#m                          E
-Sai com a mochila cheia e tão pesada
-              F#
+C#m
+Tem maluco que põe
+ E
+o pé na estrada
+F#
+Dizendo: 
+  D 
+"Vou pra longe do Pai"
+C#m
+Sai com a mochila
+  E
+cheia e tão pesada
+        F#
 E pra seguir na estrada
 Vai ser difícil de carregar
 
-Já não quer conselhos, já não quer saber de nada
-O que ele quer é simplesmente se aventurar
-E arriscar a vida que por Deus foi dada
+Já não quer conselhos,
+já não quer saber de nada
+O que ele quer é 
+simplesmente se aventurar
+E arriscar a vida que 
+por Deus foi dada
 Custe o que custar
-                                        D
-Ele acredita que vai se dar bem
-                 A                                        B
-E não vai depender da ajuda de ninguém
 
-E                                 D                                  A
-Não dá pra se esconder do Deus que tudo vê
-                                                                         E
-Não precisa estar do avesso pra Ele Te conhecer
-                               D                           A
-Está na palma da mão o poder de mudar
-                                 D                           E
-Basta uma palavra dEle para te transformar
-                       D                        A
-Se eu fosse você não fugiria mais
-                                                  E
-Não adiaria, faria como um rapaz
-                        F#                         A
-Que se arrependeu e procurando paz
+Ele acredita que vai
+    D
+se dar bem
+           A
+E não vai depender
+                B
+da ajuda de ninguém
+
+E                   D
+Não dá pra se esconder
+                 A
+do Deus que tudo vê
+
+Não precisa estar do
+                       E
+avesso pra Ele Te conhecer
+                  D
+Está na palma da mão
+              A
+o poder de mudar
+                   D
+Basta uma palavra dEle
+                E
+para te transformar
+              D
+Se eu fosse você
+             A
+não fugiria mais
+
+Não adiaria, faria 
+           E
+como um rapaz
+              F#
+Que se arrependeu e
+            A 
+procurando paz
 D
 Mudou a rota pra casa
-Foi para os braços do Pai
+Foi para os braços
+do Pai

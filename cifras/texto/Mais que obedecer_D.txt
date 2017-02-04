@@ -1,41 +1,73 @@
-Intro.:| D9   D9/F#  D9/G  A74   A7   |  2x       
+Intro.:| D9 D9/F# D9/G A74 A7 |  2x       
 
-D9           D9/F#     D9/G              A74   A7            D9
-A Minha vida desperdicei, ao viver     só por aí 
-                     D9/F#          D9/G                            A74   A7            D9
-Tentando achar coisas que não tinham nenhum sentido
-          D9/F#          D9/G            A74   A7            D9
-Eu estava procurando encontrar respostas
-                       D9/F#          D9/G                  A74   A7
-Vivendo sem rumo, em busca do desconhecido
+D9      D9/F#   D9/G
+A Minha vida desperdicei, 
+    A74   A7        D9
+ao viver   só por aí 
+D9/F#                 D9/G
+Tentando achar coisas que 
+              A74  A7     D9
+não tinham nenhum sentido
+     D9/F#      D9/G
+Eu estava procurando
+      A74  A7      D9
+encontrar respostas
+           D9/F#
+Vivendo sem rumo, 
+   D9/G          A74  A7
+em busca do desconhecido
 
-Bm           A9     F#m                 G9
-Mas um dia ouvi falar de alguém
-Bm           A9     F#m                 G9
-Que trilhou um caminho diferente
-Bm           A9             F#m                 G9
-Buscou fazer não apenas sua vontade
-Bm                A9              F#m       G9
-Mas entregou-se à vontade do Pai
+Bm     A9    F#m
+Mas um dia ouvi falar 
+     G9
+de alguém
+Bm       A9  F#mG9
+Que trilhou um caminho 
+    G9
+diferente
+Bm       A9       F#mG9
+Buscou fazer não apenas 
+       G9
+sua vontade
+Bm        A9        F#m
+Mas entregou-se à vontade
+   G9
+do Pai
 
-D9                 D9/F#                   D9/G         A74  A7    D9
-Eu quero te conhecer, entender tua vontade
-             D9/F#                 D9/G              A74   A7       D9
-Preciso aprender a esperar mais em ti
-            D9/F#                  D9/G         A74  A7   D9
-Quero ter em mim o caráter de Jesus
-                                 D9/F#              D9/G               A74  A7
-Que trilhou um caminho de obediência até a cruz
+D9          D9/F#
+Eu quero te conhecer,
+     D9/G       A74 A7 D9
+entender tua vontade
+       D9/F#
+Preciso aprender a
+   D9/G        A74 A7 D9 
+esperar mais em ti
+     D9/F#
+Quero ter em mim o 
+  D9/G     A74 A7 D9
+caráter de Jesus
+               D9/F#
+Que trilhou um caminho 
+      D9/G          A74 A7
+de obediência até a cruz
 
-Bm                   A9                     F#m                 G9
-Fazer tua vontade é muito mais que obedecer
-Bm                   A9                     F#m                 G9
-É estar ao teu lado, a cada novo amanhecer
-Bm                      A9                     F#m                 G9
-Minha vida submeto a ti, pois me amas como sou
-Bm                               A9             F#m                 G9
-Transforma o meu coração, habita em mim Senhor
+Bm           A9
+Fazer tua vontade é muito 
+ F#m         G9
+mais que obedecer
+Bm             A9
+É estar ao teu lado, 
+F#m                G9
+a cada novo amanhecer
+Bm           A9
+Minha vida submeto a ti,
+F#m            G9
+pois me amas como sou
+Bm                A9
+Transforma o meu coração, 
+  F#m         G9
+habita em mim Senhor
 
-Interlúdio: D9   D9/F#  D9/G  A74   A7   		
+Interlúdio: D9 D9/F# D9/G A74 A7   		
 
-Final: Bm  A9  F#m  G9 (2x)
+Final: Bm A9 F#m G9 (2x)
