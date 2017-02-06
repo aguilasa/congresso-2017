@@ -46,7 +46,7 @@
               "name": "Abertura do Congresso",
               "location": "Pavilhão",
               "description": "Abertura do Congresso.<br/><br/>Louvor e Palestra.",
-              "title": "Palestra - Sábado Noite",
+              "title": "Palestra - Insaciável Mente",
               "speakerNames": [
                 "Reginaldo Francisco"
               ],
@@ -117,7 +117,7 @@
               "name": "Louvor e Palestra",
               "location": "Pavilhão",
               "description": "Louvor e Palestra.",
-              "title": "Palestra: Jesus, o pão da vida!",
+              "title": "Palestra I: Jesus, o pão da vida!",
               "speakerNames": [
                 "Fabricio Fleck"
               ],
@@ -181,7 +181,7 @@
               "name": "Louvor e Palestra",
               "location": "Pavilhão",
               "description": "Louvor e Palestra.",
-              "title": "Palestra: Jesus, o pão da vida!",
+              "title": "Palestra II: Jesus, o pão da vida!",
               "speakerNames": [
                 "Fabricio Fleck"
               ],
@@ -316,7 +316,7 @@
               "name": "Louvor e Palestra",
               "location": "Pavilhão",
               "description": "Louvor e Palestra.",
-              "title": "Palestra: Senhor, dá-me dessa água",
+              "title": "Palestra I: Senhor, dá-me dessa água",
               "speakerNames": [
                 "Diego Probst"
               ],
@@ -399,7 +399,7 @@
               "name": "Louvor e Palestra",
               "location": "Pavilhão",
               "description": "Louvor e Palestra.",
-              "title": "Palestra: Senhor, dá-me dessa água",
+              "title": "Palestra II: Senhor, dá-me dessa água",
               "speakerNames": [
                 "Diego Probst"
               ],
@@ -493,112 +493,128 @@
       "artist": "Oficina G3",
       "tone": "G",
       "original": "G",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{5}9</b> <b>{7}9</b> <b>{9}m</b> |<br> <br> <b>{9}m</b>              <b>{5}9</b>          <b>{0}9</b><br> Se eu pudesse explicar ao mundo<br> <b>{2}9</b>    <b>{5}9</b>         <b>{9}m</b><br> O que é andar contigo, Oh Deus!<br> <b>{5}9</b>              <b>{2}9</b>        <b>{1}</b><br> Minhas palavras não poderiam<br> <b>{5}9</b>  <b>{4}m</b><br> expressar<br> <b>{10}</b>    <b>{2}m</b>       <b>{7}9</b>       <b>{4}m</b><br> O Teu poder. O Teu imutável amor<br> <b>{10}</b>            <b>{2}m</b><br> Falar de Quem foi, que é e sempre<br> <b>{7}9</b>   <b>{9}</b><br> será Deus!<br> <br> <b>{5}9</b>    <b>{7}9</b>   <b>{9}</b><br> Cantem os povos ao Senhor.<br> <b>{5}9</b>      <b>{7}9</b>      <b>{9}</b><br> A Ele     o    louvor<br> <b>{5}9</b>      <b>{7}9</b>    <b>{9}</b><br> A majestade ao Rei dos reis.<br> <b>{5}9</b>    <b>{7}9</b>    <b>{9}</b><br> O verdadeiro Deus, o Eu Sou!<br> <br> <b>{9}m</b>        <b>{5}9</b>       <b>{0}</b><br> Como poderia me calar.<br> <b>{2}</b>         <b>{5}9</b>    <b>{9}</b><br> Depois de O conhecer meu Deus<br> <b>{5}9</b>             <b>{2}9</b><br> Será que alguém poderá<br> <b>{1}</b>  <b>{5}9</b>  <b>{4}m</b><br> entende|--e|--er<br> <b>{10}</b>      <b>{2}m</b>     <b>{7}9</b><br> O Teu querer. A Tua graça e<br> <b>{4}m</b><br> Teu favor<br> <b>{10}</b>           <b>{2}m</b><br> Aquele que foi, que é e sempre<br> <b>{7}9</b>    <b>{9}</b><br> será Deus!<br> <br> <b>{9}m</b>      <b>{4}m</b>         <b>{7}9</b><br> O Teu entendimento não pode<br> <b>{2}9</b>  <b>{9}m</b><br> se medir<br> <b>{4}m</b>         <b>{7}9</b><br> Desde o princípio anuncia<br> <b>{2}9</b> <b>{9}m</b><br> o que há de vir<br> <b>{4}m</b>              <b>{7}9</b><br> Virá o dia em que a verdade<br> <b>{2}9</b> <b>{9}m</b><br> se revelará<br> <b>{4}m</b>          <b>{7}9</b><br> E Tua glória este mundo<br> <b>{5}9</b><br> contemplará<br> <br> Intro + Passagem(solo):<br> (<b>{5}9</b> <b>{7}9</b> <b>{9}</b> <b>{2}m</b> <b>{5}9</b> <b>{9}m</b><br> <b>{7}9</b> <b>{2}m</b> <b>{5}9</b> <b>{9}m</b> <b>{10}</b> )<br> <br> Passagem:<br> (<b>{9}m</b> <b>{0}9</b> <b>{4}m</b> <b>{2}9</b>)<br> <br> <b>{9}</b> <b>{11}</b> <b>{9}</b> <b>{4}</b> <b>{11}</b> <b>{9}</b> <b>{7}</b> <b>{0}</b> <b>{5}</b> <b>{7}</b> <b>{9}</b><br>"
     },
     {
       "name": "Centro da Tua vontade",
       "artist": "Nivea Soares",
       "tone": "G",
       "original": "G",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{7}</b> <b>{9}</b>/<b>{1}</b> <b>{2}9</b> <b>{7}</b> <b>{9}</b> <b>{11}m</b> <b>{7}9</b> <b>{9}</b>/<b>{1}</b> <b>{2}9</b> <b>{11}m</b> <b>{0}9</b> <b>{9}sus4</b> |<br> <br> <b>{4}m</b>/<b>{2}</b><br> Existe um lugar Senhor,<br> <b>{9}</b>/<b>{2}</b> <b>{2}9</b>  <b>{9}</b>/<b>{2}</b> <b>{2}9</b><br> no centro da Tua vontade<br> <b>{4}m</b>/<b>{2}</b><br> Existe um lugar eu sei,<br> <b>{9}</b>/<b>{2}</b> <b>{2}9</b>  <b>{2}</b>/<b>{6}</b><br> feito só pra mim<br> <b>{7}9</b>      <b>{9}</b>/<b>{1}</b><br> E é neste lugar que eu<br> <b>{7}</b>/<b>{2}</b>  <b>{2}9</b> <b>{7}</b>/<b>{2}</b><br> desejo estar Senhor<br> <b>{2}</b>/<b>{6}</b>   <b>{7}9</b>     <b>{9}</b>/<b>{1}</b><br> E é neste lugar que eu<br> <b>{9}</b>/<b>{2}</b>  <b>{2}9</b> <b>{7}</b>/<b>{2}</b><br> quero habitar Senhor<br> <b>{2}</b>/<b>{6}</b>   <b>{7}9</b>     <b>{9}</b>/<b>{1}</b><br> E é neste lugar que eu<br> <b>{9}</b>/<b>{2}</b>  <b>{2}9</b>    <b>{7}</b>/<b>{2}</b><br> posso descansar (e te adorar)<br> <b>{2}</b>/<b>{6}</b>  <b>{7}9</b><br> E é neste lugar,<br> <b>{9}</b>/<b>{1}</b>              <b>{9}</b>/<b>{1}</b> <b>{7}</b>/<b>{11}</b>  <b>{2}9</b><br> no centro da tua vontade<br> <br> <b>{5}9</b>        <b>{0}</b>         <b>{2}9</b><br> Sei muitos vão dizer que há<br> <b>{7}</b>/<b>{2}</b>  <b>{2}</b><br> outro lugar melhor<br> <b>{5}9</b>         <b>{0}</b>       <b>{2}9</b><br> Sei que muitos vão pensar<br> <b>{7}</b>/<b>{2}</b>  <b>{2}</b><br> que eu enlouqueci<br> <b>{5}9</b>        <b>{0}</b>         <b>{2}9</b><br> Mas não há lugar de honra<br> <b>{7}</b>/<b>{2}</b>  <b>{2}</b><br> maior que no Teu altar<br> <b>{5}9</b>        <b>{0}</b><br> Tomo minha cruz<br> <b>{2}9</b>                 <b>{7}</b>/<b>{2}</b>  <b>{2}</b><br> e sigo a Ti Jesus<br> <br> (fim)<br> <b>{9}</b>/<b>{1}</b> <b>{2}9</b>   <b>{7}</b>/<b>{11}</b>  <b>{0}9</b>  <b>{9}sus4</b><br>"
     },
     {
       "name": "Com todo o meu ser",
       "artist": "Adhemar de Campos",
       "tone": "E",
       "original": "E",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{2}m</b>  <b>{5}</b>  <b>{0}</b> | 2x<br> <br> <b>{2}m</b>        <b>{5}</b><br> Eu te adorarei, Senhor<br> <b>{0}</b><br> Com todo o meu ser<br> <b>{2}m</b>        <b>{5}</b><br> Porque quebrantado estou<br> <b>{0}</b><br> Venho me render<br> <br> <b>{2}m</b>      <b>{5}</b><br> Eu te seguirei, Senhor<br> <b>{0}</b><br> Enquanto eu viver<br> <b>{2}m</b>     <b>{5}</b><br> A quem tanto me amou<br> <b>{0}</b><br> Venho me oferecer<br> <br> <b>{0}</b>      <b>{7}</b>/<b>{0}</b><br> Pois tu és minha paz<br> <b>{0}7</b>            <b>{5}</b>/<b>{0}</b><br> E o teu perfeito amor<br> <b>{2}m</b>          <b>{0}</b>/<b>{4}</b><br> Que sustenta minha vida<br> <b>{2}7</b>/<b>{6}</b>     <b>{5}m6</b><br> Lança fora o temor<br> <b>{0}</b>/<b>{4}</b>         <b>{7}</b>/<b>{11}</b><br> Sim tu és minha canção<br> <b>{0}7</b>/<b>{10}</b>      <b>{5}</b>/<b>{9}</b><br> Meu louvor e adoração<br> <b>{2}m</b>         <b>{0}</b>/<b>{4}</b><br> Te entrego minha vida<br> <b>{2}7</b>/<b>{6}</b>      <b>{5}m6</b><br> Me coloco em tuas mãos<br> <b>{0}</b><br> Jesus (4x)<br>"      
     },
     {
       "name": "Como Ele nos amou",
       "artist": "Kleber Lucas",
       "tone": "D",
       "original": "D",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{9}m7</b> <b>{5}</b> <b>{0}</b> <b>{7}9</b> | 6x <br> <br> <b>{9}m7</b>    <b>{5}</b>  <b>{0}</b><br> Nasceu Deus enviou seu<br> <b>{7}9</b><br> filho ao mundo<br> <b>{9}m7</b>   <b>{5}</b>      <b>{0}</b>         <b>{7}9</b><br> Viveu a exata expressão<br> do pai<br> <b>{9}m7</b>    <b>{5}</b>   <b>{0}</b>        <b>{7}9</b><br> Sofreu homem de dores<br> <br> ( <b>{9}m7</b> <b>{5}</b> <b>{0}</b> <b>{7}9</b> ) 2x<br> ú,ú, ú, ú<br> <br> <br> <b>{9}m7</b>    <b>{5}</b>    <b>{0}</b><br> Quebrou todas as portas<br> <b>{7}9</b><br> do engano<br> <b>{9}m7</b>    <b>{5}</b>       <b>{0}</b><br> Salvou o seu povo pra<br> <b>{7}9</b><br> ser santo<br> <b>{9}m7</b>         <b>{5}</b>        <b>{0}</b><br> Igreja do senhor santuário<br> <b>{7}9</b><br> da adoração<br> <b>{9}m7</b>            <b>{5}</b><br> Que traz a terra o seu<br> <b>{0}</b>         <b>{4}</b><br> trono do céu<br> <br> <br> <b>{9}m7</b>  <b>{5}</b>       <b>{0}</b>        <b>{7}9</b><br> Amar como Ele nos amou<br> <b>{9}m7</b>  <b>{5}</b>           <b>{0}</b><br> Viver      a vida como Ele<br> <b>{7}9</b><br> quer para o seu louvor<br> <b>{9}m7</b>  <b>{5}</b>       <b>{0}</b>        <b>{7}9</b><br> Amar como Ele nos amou<br> <b>{9}m7</b>  <b>{5}</b>           <b>{2}m7</b><br> Viver      a vida como Ele<br> <b>{4}</b><br> quer para o seu louvor<br> <b>{5}</b>             <b>{7}</b><br> somos feitos para O adorar<br> <br> Passagem: (<b>{9}m7</b> <b>{5}</b> <b>{7}</b> <b>{0}</b>) 2x<br>"
     },
     {
       "name": "Diante da Cruz",
       "artist": "Hillsong",
       "tone": "E",
       "original": "E",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{5}</b> <b>{0}</b>/<b>{4}</b> <b>{5}</b> | <b>{7}</b> | 2x<br> <br> <b>{0}</b>/<b>{4}</b>   <b>{5}</b>        <b>{7}</b>  <b>{9}m</b><br> Oh, Deus, me sondas<br> <b>{0}</b>/<b>{4}</b>  <b>{5}</b>     <b>{7}</b><br> <b>{8}onheces-me</b><br> <b>{0}</b>/<b>{4}</b>      <b>{5}</b>     <b>{7}</b>  <b>{9}m</b><br> Mesmo quando falho<br> <b>{5}</b>          <b>{7}</b><br> Eu sei, me amas<br> <br> Estás presente<br> A me cercar<br> Em todo tempo<br> Eu sei, me amas (2x)<br> <br> <b>{0}</b>(<b>{2}</b>)                <b>{9}m</b>(<b>{11}m</b>)<br> Prostro-me diante da cruz,<br> <b>{5}</b>(<b>{7}</b>)<br> vejo o sangue de Jesus<br> <b>{7}</b>(<b>{9}</b>)<br> Nunca houve amor assim<br> <b>{0}</b>(<b>{2}</b>)                <b>{9}m</b>(<b>{11}m</b>)<br> Sobre a morte já venceu,<br> <b>{5}</b>(<b>{7}</b>)<br> sua glória o céu encheu<br> <b>{7}</b>(<b>{11}m</b>)<br> Nada irá me separar<br> <br> Tu és meu guia<br> Meu protetor<br> Tua mão me firma<br> Eu sei, me amas<br> <br> <b>{5}</b>(<b>{7}</b>)<br> /: O véu rasgou,<br> <b>{7}</b>(<b>{9}</b>)    <b>{9}m</b>(<b>{11}m</b>)<br> o caminho abriu<br> <b>{5}</b>(<b>{7}</b>)  <b>{9}m</b>(<b>{11}m</b>) <b>{7}</b>(<b>{9}</b>)<br> Tudo consumado está :/<br> <br> E quando tudo<br> Se acabar<br> Estarei seguro<br> Pois sei, me amas (2x)<br>"
     },
     {
       "name": "Do avesso",
       "artist": "Paulo César Baruk",
       "tone": "E",
       "original": "E",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{0}</b> <b>{10}</b> <b>{5}</b>/<b>{9}</b> |<br> <br> <b>{9}m</b><br> Tem maluco que põe<br> <b>{0}</b><br> o pé na estrada<br> <b>{2}</b><br> <b>{10}izendo:</b><br> <b>{10}</b><br> \"Vou pra longe do Pai\"<br> <b>{9}m</b><br> Sai com a mochila<br> <b>{0}</b><br> cheia e tão pesada<br> <b>{2}</b><br> E pra seguir na estrada<br> Vai ser difícil de carregar<br> <br> Já não quer conselhos,<br> já não quer saber de nada<br> O que ele quer é<br> simplesmente se aventurar<br> E arriscar a vida que<br> por Deus foi dada<br> Custe o que custar<br> <br> Ele acredita que vai<br> <b>{10}</b><br> se dar bem<br> <b>{5}</b><br> E não vai depender<br> <b>{7}</b><br> da ajuda de ninguém<br> <br> <b>{0}</b>                   <b>{10}</b><br> Não dá pra se esconder<br> <b>{5}</b><br> do Deus que tudo vê<br> <br> Não precisa estar do<br> <b>{0}</b><br> avesso pra Ele Te conhecer<br> <b>{10}</b><br> Está na palma da mão<br> <b>{5}</b><br> o poder de mudar<br> <b>{10}</b><br> Basta uma palavra dEle<br> <b>{0}</b><br> para te transformar<br> <b>{10}</b><br> Se eu fosse você<br> <b>{5}</b><br> não fugiria mais<br> <br> Não adiaria, faria<br> <b>{0}</b><br> como um rapaz<br> <b>{2}</b><br> Que se arrependeu e<br> <b>{5}</b><br> procurando paz<br> <b>{10}</b><br> Mudou a rota pra casa<br> Foi para os braços<br> do Pai<br>"
     },
     {
       "name": "Identidade",
       "artist": "Anderson Freire",
       "tone": "G",
       "original": "G",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{9}m</b> <b>{7}9</b> <b>{5}</b> <b>{0}</b> <b>{7}9</b> <b>{5}</b> <b>{7}9</b> <b>{9}m</b> |<br> <b>{9}m</b><br> Não vou negar quem sou<br> <b>{5}</b><br> Não há máscara em mim<br> <b>{7}9</b>                     <b>{2}m7</b><br> Desde quando te entreguei<br> meu coração<br> <b>{9}m</b>                      <b>{5}</b><br> Não vale a pena te negar<br> <b>{7}9</b><br> em troca de viver<br> <b>{2}m7</b><br> Se morrer por ti, pra<br> <b>{9}m</b> <b>{7}9</b>/<b>{11}</b> <b>{0}</b><br> mim significa viver<br> <br> ( <b>{2}m7</b>  <b>{0}</b>  <b>{7}9</b>/<b>{11}</b> )<br> <br> <b>{9}m</b>                  <b>{5}</b><br> Nada vai interromper<br> minha adoração<br> <b>{7}9</b>               <b>{2}m7</b><br> Babilônia não habita<br> no meu coração<br> <b>{9}m</b>                 <b>{7}9</b><br> Nem o fogo vai fazer.<br> <b>{5}</b><br> A aliança que eu tenho<br> <b>{4}7</b><br> com o Senhor. Se romper<br> <br> <b>{9}m</b>                 <b>{5}</b><br> Minha identidade é<br> <b>{0}</b><br> servo do Senhor<br> <b>{7}9</b><br> Dentro da fornalha<br> <b>{9}m</b><br> vou mostrar quem és<br> <b>{5}</b><br> Sendo quem eu sou,<br> <b>{0}</b><br> fiel adorador<br> <b>{4}m7</b><br> Nem a morte vai nos<br> <b>{9}m</b>  <b>{7}9</b> <b>{5}</b> <b>{0}</b> <b>{7}9</b><br> separar, Senhor<br> <br> <b>{9}m</b>                           <b>{5}</b><br> Sadraque, Mesaque, Abedenego.<br> <br> Jovens demais pra morrerem cedo<br> <b>{7}9</b><br> Negaram     o pedido de um rei<br> <b>{2}m7</b><br> O decreto era  que adorassem<br> a imagem que ele fez<br> <b>{9}m</b><br> Quem não adorasse seria<br> <b>{5}</b><br> lançado dentro da fornalha<br> ardente de fogo<br> <b>{7}9</b><br> E foi dessa forma<br> que aconteceu.<br> <b>{2}m7</b><br> Mas a verdade é que<br> o rei enlouqueceu<br> <br> <b>{9}m</b><br> Mas havia um quarto homem<br> que com eles passeava<br> <b>{7}9</b>/<b>{11}</b><br> No meio do fogo, mas o<br> fogo não queimava<br> <b>{0}</b><br> O rei reconheceu que<br> <b>{4}7</b><br> não havia outro Deus<br> <br> E o adorou<br>"
     },
     {
       "name": "Infinitamente mais",
       "artist": "Resgate",
       "tone": "E",
       "original": "E",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{4}m</b> <b>{4}4</b> <b>{4}m</b> <b>{4}4</b> <b>{2}</b> <b>{0}</b> <b>{2}</b> <b>{0}</b> | 2x <br> <br> <br> <b>{7}</b>          <b>{2}</b><br> Se eu olho pra trás<br> <b>{0}</b><br> não vejo mais nada<br> <b>{7}</b>  <b>{2}</b><br> O Teu Amor cobriu a<br> <b>{9}m7</b><br> multidão dos meus erros<br> <b>{7}</b>         <b>{2}</b>         <b>{0}</b><br> Se eu olho pra dentro,<br> <br> eu vejo um rio<br> <b>{7}</b>  <b>{2}</b><br> O Teu Amor  encheu<br> <b>{9}m7</b><br> um grande vazio<br> <b>{5}</b>                 <b>{9}m7</b><br> Não há sombras do que um<br> <b>{2}</b><br> dia já foi só certezas<br> <br> do que ainda virá<br> <br> <br> <b>{7}</b>      <b>{2}</b> <b>{0}</b>    <b>{2}</b><br> De tudo que um dia<br> <b>{7}</b> <b>{2}</b>  <b>{0}</b><br> alguém sonhou<br> infinitamente mais<br> <b>{7}</b>      <b>{2}</b>  <b>{0}</b> <b>{2}</b>  <b>{7}</b><br> De tudo que o homem<br> <b>{2}</b>    <b>{0}</b><br> já pensou<br> infinitamente mais<br> <br> <br> <b>{7}</b>         <b>{2}</b><br> Se eu olho pro céu<br> <b>{0}</b><br> eu vejo uma casa<br> <b>{7}</b>   <b>{2}</b>    <b>{9}m7</b><br> O Teu Amor pagou<br> um alto preço<br> <b>{7}</b>         <b>{2}</b><br> Se eu olho pro chão<br> <b>{0}</b><br> eu vejo uma rocha<br> <b>{7}</b>   <b>{2}</b>     <b>{9}m7</b><br> Pra colocar os pés<br> a vida inteira<br> <b>{5}</b>                 <b>{9}m7</b><br> Não há sombras do que um<br> <b>{2}</b><br> dia já foi só certezas<br> <br> do que ainda virá<br> <br> Solo: ( <b>{4}m</b> <b>{4}4</b> <b>{2}</b> <b>{0}</b> <b>{2}</b> <b>{0}</b> 2x  <b>{5}</b> <b>{9}m7</b> <b>{2}</b> )<br> <br> <br>"
     },
     {
       "name": "Jesus, Tu És maravilhoso",
       "artist": "Paulo Gomes",
       "tone": "F",
       "original": "F",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{0}</b> <b>{9}m</b> <b>{10}</b> <b>{5}</b> | 2x<br> <br> <b>{0}</b>          <b>{9}m</b>       <b>{10}</b><br> Jesus, tu és maravilhoso<br> <b>{5}</b>              <b>{0}</b><br> Soberano Senhor tu és<br> <b>{9}m</b><br> Pra sempre reinas sobre<br> <b>{10}</b><br> terra e céus<br> <b>{5}</b>                 <b>{9}m</b><br> Não há outro igual a ti<br> <b>{7}</b><br> Rei do universo, Senhor<br> <b>{5}</b> <b>{7}</b> <b>{8}</b> <b>{10}</b><br> dos senhores<br> <br> <b>{0}</b>               <b>{7}</b><br> Jesus, tu és adorado<br> <b>{10}</b><br> Em todo universo tu<br> <b>{5}</b><br> és exaltado<br> <b>{0}</b>               <b>{7}</b><br> Tu és o Alfa e o Ômega<br> <b>{10}</b><br> Princípio e o fim<br> <b>{5}</b><br> de todas as coisas<br> <br> O nome de Jesus<br> O nome de Jesus<br> É sobre todo nome<br> Não há outro igual<br> <br> <b>{0}</b>inal|: <b>{5}</b> <b>{7}</b> <b>{8}</b> <b>{10}</b> :| <b>{0}</b><br>"
     },
     {
       "name": "Justificados pela fé",
       "artist": "Alvo Certo",
       "tone": "F",
       "original": "F",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{2}</b> <b>{9}</b> <b>{4}</b> <b>{2}</b> <b>{9}</b> <b>{4}</b> <b>{11}</b> <b>{1}m</b> <b>{11}°</b> <b>{1}m</b> <b>{11}</b> | 2x<br> <br> <b>{4}</b>           <b>{11}</b><br> Longe de ser, digno<br> <b>{1}m</b><br> de receber<br> <b>{2}</b>             <b>{9}</b><br> prossigo no caminho<br> <b>{4}</b> <b>{2}</b> <b>{1}</b><br> que ingressei pela fé<br> <b>{4}</b>           <b>{11}</b><br> Longe de ter cumprido<br> <b>{1}m</b><br> todas as leis<br> <b>{2}</b>            <b>{9}</b><br> Longe de merecer alguma<br> <b>{4}</b>          <b>{4}7</b><br> coisa pelas minhas obras!<br> <b>{2}</b><br> O mal que não quero<br> <b>{9}</b>            <b>{4}</b><br> fazer esse eu faço<br> <b>{6}</b><br> O bem que eu quero fazer,<br> <b>{11}</b> <b>{1}m</b> <b>{11}°</b> <b>{0}°</b> <b>{11}</b><br> esse eu não faço!<br> <br> <b>{4}</b>(<b>{7}</b>)<br> Justificados pela fé<br> <b>{11}</b>(<b>{2}</b>)<br> em Cristo<br> <b>{1}m</b>(<b>{4}m</b>)     <b>{9}</b>(<b>{0}</b>)<br> Resgatados pelo seu amor<br> <b>{4}</b>(<b>{7}</b>)           <b>{2}</b>(<b>{5}</b>)<br> Não há ninguém sequer<br> <b>{9}</b>(<b>{0}</b>)<br> que nunca pecou<br> <b>{4}</b>(<b>{7}</b>)     <b>{11}</b>(<b>{2}</b>)<br> Somos todos dependentes<br> da sua bondade<br> <b>{1}m</b>(<b>{4}m</b>)    <b>{9}</b>(<b>{0}</b>)<br> e do seu amor<br> <b>{4}</b>(<b>{7}</b>)         <b>{2}</b>(<b>{5}</b>)<br> Creia é somente<br> <b>{9}</b>(<b>{0}</b>)<br> através do Senhor<br> <br> <b>{2}</b>(<b>{5}</b>)<br> é Ele quem te dá a<br> <b>{9}</b>(<b>{0}</b>)<br> nova condição<br> <b>{4}</b>(<b>{7}</b>)<br> é Dele que procede<br> <b>{4}7</b>(<b>{7}7</b>)<br> a nossa salvação<br> <b>{2}</b>(<b>{5}</b>)<br> é Ele quem te dá<br> <b>{9}</b>(<b>{0}</b>) <b>{4}</b>(<b>{7}</b>)<br> a nova condição<br> <b>{2}</b>(<b>{5}</b>)<br> é só Ele que te dá<br> <b>{9}</b>(<b>{0}</b>)<br> a nova condição<br> <b>{4}</b>(<b>{7}</b>)<br> é Dele que procede<br> <b>{4}7</b>(<b>{7}7</b>)<br> a nossa salvação<br> <b>{2}</b>(<b>{5}</b>)<br> é Ele quem te dá<br> <b>{9}</b>(<b>{0}</b>)<br> a nova condição<br> <br> Solo  <b>{5}</b> <b>{0}</b> <b>{7}</b> <b>{5}</b> <b>{0}</b> <b>{7}</b> <b>{5}</b> <b>{0}</b> <b>{7}</b> <b>{5}</b> <b>{0}</b> <b>{2}</b><br>"
     },
     {
       "name": "Mais que obedecer",
       "artist": "Ingmar Aguiar",
       "tone": "D",
       "original": "D",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{0}9</b> <b>{0}9</b>/<b>{4}</b> <b>{0}9</b>/<b>{5}</b> <b>{7}74</b> <b>{7}7</b> |  2x       <br> <br> <b>{0}9</b>      <b>{0}9</b>/<b>{4}</b>   <b>{0}9</b>/<b>{5}</b><br> A Minha vida desperdicei,<br> <b>{7}74</b>   <b>{7}7</b>        <b>{0}9</b><br> ao viver   só por aí<br> <b>{0}9</b>/<b>{4}</b>                 <b>{0}9</b>/<b>{5}</b><br> Tentando achar coisas que<br> <b>{7}74</b>  <b>{7}7</b>     <b>{0}9</b><br> não tinham nenhum sentido<br> <b>{0}9</b>/<b>{4}</b>      <b>{0}9</b>/<b>{5}</b><br> Eu estava procurando<br> <b>{7}74</b>  <b>{7}7</b>      <b>{0}9</b><br> encontrar respostas<br> <b>{0}9</b>/<b>{4}</b><br> Vivendo sem rumo,<br> <b>{0}9</b>/<b>{5}</b>          <b>{7}74</b>  <b>{7}7</b><br> em busca do desconhecido<br> <br> <b>{9}m</b>     <b>{7}9</b>    <b>{4}m</b><br> Mas um dia ouvi falar<br> <b>{5}9</b><br> de alguém<br> <b>{9}m</b>       <b>{7}9</b>  <b>{4}mG9</b><br> Que trilhou um caminho<br> <b>{5}9</b><br> diferente<br> <b>{9}m</b>       <b>{7}9</b>       <b>{4}mG9</b><br> Buscou fazer não apenas<br> <b>{5}9</b><br> sua vontade<br> <b>{9}m</b>        <b>{7}9</b>        <b>{4}m</b><br> Mas entregou-se à vontade<br> <b>{5}9</b><br> do Pai<br> <br> <b>{0}9</b>          <b>{0}9</b>/<b>{4}</b><br> Eu quero te conhecer,<br> <b>{0}9</b>/<b>{5}</b>       <b>{7}74</b> <b>{7}7</b> <b>{0}9</b><br> entender tua vontade<br> <b>{0}9</b>/<b>{4}</b><br> Preciso aprender a<br> <b>{0}9</b>/<b>{5}</b>        <b>{7}74</b> <b>{7}7</b> <b>{0}9</b><br> esperar mais em ti<br> <b>{0}9</b>/<b>{4}</b><br> Quero ter em mim o<br> <b>{0}9</b>/<b>{5}</b>     <b>{7}74</b> <b>{7}7</b> <b>{0}9</b><br> caráter de Jesus<br> <b>{0}9</b>/<b>{4}</b><br> Que trilhou um caminho<br> <b>{0}9</b>/<b>{5}</b>          <b>{7}74</b> <b>{7}7</b><br> de obediência até a cruz<br> <br> <b>{9}m</b>           <b>{7}9</b><br> Fazer tua vontade é muito<br> <b>{4}m</b>         <b>{5}9</b><br> mais que obedecer<br> <b>{9}m</b>             <b>{7}9</b><br> É estar ao teu lado,<br> <b>{4}m</b>                <b>{5}9</b><br> a cada novo amanhecer<br> <b>{9}m</b>           <b>{7}9</b><br> Minha vida submeto a ti,<br> <b>{4}m</b>            <b>{5}9</b><br> pois me amas como sou<br> <b>{9}m</b>                <b>{7}9</b><br> Transforma o meu coração,<br> <b>{4}m</b>         <b>{5}9</b><br> habita em mim Senhor<br> <br> Interlúdio: <b>{0}9</b> <b>{0}9</b>/<b>{4}</b> <b>{0}9</b>/<b>{5}</b> <b>{7}74</b> <b>{7}7</b><br> <br> Final: <b>{9}m</b> <b>{7}9</b> <b>{4}m</b> <b>{5}9</b> (2x)<br>"
     },
     {
       "name": "O que buscar",
       "artist": "Lucas 9",
       "tone": "D",
       "original": "D",
-      "minor": "m"
+      "minor": "m",
+      "chords": "Intro.:| <b>{0}m</b> <b>{10}</b> <b>{8}</b> <b>{3}</b> <b>{5}</b> <b>{3}</b> |<br> <br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> O que quer? O que sonha?<br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> O que crer e o que seguir?<br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> O que ser? E porque não ser?<br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> Quanto dinheiro tem?<br> Que diferença faz?<br> <b>{8}</b><br> Pra que viver perdidos<br> sem saber o que fazer?<br> <b>{10}</b><br> Pra que viver mentindo?<br> <b>{7}m</b><br> Caia na real!<br> <br> <br> Riff introdução<br> Onde está o seu tesouro,<br> está seu coração!<br> <br> Tá cheio de riquezas???<br> Mas desejos vão<br> <br> Orgulho e vaidade<br> transbordam em você,<br> <br> não há espaço para<br> Deus agir não.<br> <br> Buscar a Deus enquanto<br> se pode achar,<br> <br> buscar a Deus em<br> primeiro lugar.<br> <br> E tudo aquilo que<br> também buscar,<br> <br> tenha certeza que<br> Deus vai acrescentar.<br> <br> <br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> O que quero? O que sonho?<br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> O que creio? A quem sigo?<br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> O que sou, e o que eu não sou?<br> <b>{0}m</b>  <b>{10}</b>  <b>{8}</b><br> Quanto dinheiro tenho,<br> que diferença faz?<br> <b>{8}</b><br> Pra que viver perdido<br> sem saber o que fazer?<br> <b>{10}</b><br> Pra que viver mentindo?<br> <b>{7}m</b><br> Caia na real!<br> <br> <b>{8}</b><br> Não perco tempo,<br> <b>{10}</b><br> buscando ser alguém.<br> <b>{3}</b><br> Prefiro ter aquilo que<br> Deus tem pra mim.<br> <b>{8}</b><br> Não há como servir<br> <b>{10}</b><br> a dois senhores.<br> <b>{3}</b><br> Pois com certeza alguém<br> <b>{8}</b><br> vai se desagradar.<br> <br> <br>"
     },
     {
       "name": "Teu amor não falha",
       "artist": "Nivea Soares",
       "tone": "C",
       "original": "C",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{9}m7</b> <b>{5}9</b>/<b>{0}</b> <b>{0}</b> <b>{7}11</b>/<b>{11}</b> | 6x<br> <br> <b>{9}m7</b>          <b>{5}9</b>/<b>{0}</b> <b>{0}</b><br> Nada vai me separar.<br> <b>{7}11</b>/<b>{11}</b><br> Mesmo se eu me abalar<br> <b>{9}m7</b>         <b>{5}9</b>/<b>{0}</b>  <b>{0}</b>  <b>{7}</b><br> Teu amor não falha<br> <b>{9}m7</b>      <b>{5}9</b>/<b>{0}</b>    <b>{0}</b><br> Mesmo sem  merecer.<br> <b>{7}11</b>/<b>{11}</b><br> Tua graça se derrama sobre mim<br> <b>{9}m7</b>         <b>{5}9</b>/<b>{0}</b>  <b>{0}</b>     <b>{7}</b><br> Teu amor não falha,   Jesus<br> <br> <br> <b>{5}9</b>/<b>{0}</b>     <b>{0}</b>/<b>{7}</b>  <b>{7}4</b>  <b>{2}m7</b><br> Tu és o mesmo pra sempre.<br> <b>{5}9</b>/<b>{0}</b><br> Teu amor não muda<br> <b>{0}</b>/<b>{7}</b>     <b>{7}4</b>    <b>{2}m7</b><br> Se o choro dura uma noite.<br> A alegria vem pela manhã<br> <b>{5}9</b>/<b>{0}</b>    <b>{0}</b>/<b>{7}</b>       <b>{7}4</b><br> Se o mar se enfurecer.<br> <b>{2}m7</b><br> Eu não tenho o que temer<br> <b>{5}9</b>/<b>{0}</b>      <b>{0}</b>/<b>{7}</b>       <b>{7}4</b><br> Porque eu sei que me amas.<br> <b>{5}9</b>/<b>{0}</b>   <b>{9}m7</b>  <b>{7}4</b>  <b>{0}</b>/<b>{4}</b><br> Teu amor não falha<br> <br> <br> <b>{9}m7</b><br> Se o vento é forte<br> <b>{5}9</b>/<b>{0}</b><br> e profundo o mar<br> <b>{0}</b>            <b>{7}11</b>/<b>{11}</b>  <b>{9}m7</b><br> Tua presença vem me amparar.<br> <b>{5}9</b>/<b>{0}</b>  <b>{0}</b>    <b>{7}</b><br> Pois  Teu amor não falha, não<br> <b>{9}m7</b>          <b>{5}9</b>/<b>{0}</b> <b>{0}</b><br> Difícil é o caminhar.<br> <b>{7}11</b>/<b>{11}</b><br> Nunca pensei que eu<br> fosse alcançar<br> <b>{9}m7</b>      <b>{5}9</b>/<b>{0}</b> <b>{0}</b>     <b>{7}</b><br> Mas teu amor não falha Oh, Jesus<br> <br> <br> <b>{5}9</b>/<b>{0}</b>  <b>{9}m7</b><br> Tu fazes  que tudo,<br> <b>{7}4</b><br> Coopere para o meu bem<br> <b>{5}9</b>/<b>{0}</b>  <b>{9}m7</b><br> Tu fazes  que tudo,<br> <b>{7}4</b><br> Coopere para o meu bem<br>"
     },
     {
       "name": "Tome tudo de mim",
       "artist": "Vineyard",
       "tone": "G",
       "original": "G",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{0}</b> <b>{7}</b>/<b>{11}</b> <b>{9}m</b> <b>{7}</b>/<b>{11}</b> | 4x<br> <br> <br> <b>{0}</b>  <b>{7}</b>/<b>{11}</b>   <b>{9}m</b>  <b>{7}</b>/<b>{11}</b><br> Tome tudo de mim,<br> <b>{0}</b>  <b>{7}</b>/<b>{11}</b>   <b>{9}m</b> <b>{7}</b>/<b>{11}</b><br> tome Seu lugar.<br> <b>{0}</b>  <b>{7}</b>/<b>{11}</b>   <b>{9}m</b>  <b>{7}</b>/<b>{11}</b><br> Tome tudo de mim,<br> <b>{0}</b>    <b>{7}</b>/<b>{11}</b>   <b>{9}m</b><br> tenho nada sem você.<br> <b>{7}</b>        <b>{9}m7</b><br> Meu coração vazio,<br> <b>{7}</b>      <b>{0}</b><br> nada no meu ser.<br> <b>{7}</b>      <b>{9}m7</b><br> Vivendo só pra mim,<br> <b>{7}</b>      <b>{0}</b><br> eu preciso de você.<br> <br> <b>{5}9</b><br> Só você, Senhor,<br> <b>{7}2</b><br> pode encher meu coração.<br> <b>{0}</b>/<b>{4}</b> <b>{5}9</b><br> Só você, dá razão pra viver<br> <b>{5}9</b><br> Não quero mais<br> <b>{7}2</b><br> viver só pra mim.<br> <b>{0}</b>/<b>{4}</b> <b>{5}9</b><br> Mais de você,<br> <b>{9}m7</b>   <b>{7}2</b><br> menos de mim.<br> <br> <br>"
     },
     {
       "name": "Tu És Deus",
       "artist": "Megafone",
       "tone": "D",
       "original": "D",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{0}</b> <b>{5}</b> <b>{9}m</b> <b>{7}</b> <b>{5}</b> |<br> <br> <b>{9}m</b>     <b>{0}</b><br> Tudo está em Tuas mãos<br> <b>{5}</b><br> Senhor<br> <b>{9}m</b>        <b>{0}</b><br> Eu sou grato pelo Teu<br> <b>{5}</b><br> imenso amor<br> <b>{9}m</b>      <b>{0}</b>         <b>{5}</b><br> Tu estás cercado de louvor<br> <b>{9}m</b>         <b>{0}</b><br> Eu sou grato pelo Teu<br> <b>{5}</b><br> imenso amor<br> <br> <b>{9}m</b>            <b>{7}</b><br> Acalma a tempestade.<br> <b>{5}</b><br> Quando aflito estou<br> <b>{9}m</b>           <b>{7}</b><br> Cuida de cada situação.<br> <b>{5}</b><br> Desde a minha salvação<br> <br> <b>{0}</b>           <b>{5}</b><br> Tu és Deus, Tu és Deus<br> <b>{9}m</b>          <b>{7}</b><br> Tão glorioso e poderoso<br> <b>{0}</b>          <b>{5}</b><br> És Deus, Tu és Deus<br> <b>{9}m</b><br> Mesmo tão grande.<br> <b>{7}</b>                <b>{0}</b><br> Se importa e olha por mim<br> <br> <b>{5}</b><br> Quando estou a ponto<br> de cair<br> <b>{0}</b><br> Segura a minhas mãos<br> <b>{7}</b><br> Não preciso mais temer<br> <b>{5}</b><br> Confio em Ti Senhor<br> <br> <br>"
     },
     {
       "name": "Você pode ter",
       "artist": "João Alexandre",
       "tone": "A",
       "original": "A",
-      "minor": ""
+      "minor": "",
+      "chords": "Intro.:| <b>{7}</b>  <b>{0}</b> |<br> <br> <b>{7}</b>       <b>{7}</b>/<b>{11}</b>    <b>{0}9</b><br> Você pode ter a casa<br> (<b>{5}</b> <b>{0}</b> <b>{7}</b>)<br> repleta de amigos<br> <b>{7}</b>       <b>{7}</b>/<b>{11}</b><br> Paredes e pisos<br> <b>{9}7</b><br> cobertos de bens.<br> <b>{0}9</b>     <b>{7}</b>/<b>{11}</b><br> Ter um carro do<br> <b>{9}7</b><br> último tipo<br> <b>{0}9</b>           <b>{5}9</b><br> E andar conforme<br> <b>{7}</b><br> der na cabeça.<br> <b>{7}</b>       <b>{7}</b>/<b>{11}</b>     <b>{0}9</b><br> Ou pode até ser o cara<br> (<b>{5}9</b> <b>{0}</b> <b>{7}</b>)<br> que vive apertado<br> <b>{7}</b>       <b>{7}</b>/<b>{11}</b><br> Até mesmo dentro<br> <b>{9}7</b><br> de um lotação<br> <b>{0}9</b>          <b>{7}</b>/<b>{11}</b><br> Curtindo assim mesmo<br> <b>{9}7</b><br> o fim de semana<br> <b>{0}9</b>           <b>{5}9</b><br> Ao andar conforme<br> <b>{7}</b><br> der na cabeça.<br> <br> <br> <b>{2}9</b><br> Mas sempre será como<br> <b>{5}9</b><br> folha no vento,<br> <b>{10}</b>              <b>{2}</b> <b>{2}4</b><br> Esperando o momento<br> <b>{2}9</b><br> de cair.<br> <b>{2}9</b><br> Você pode ter tudo<br> <b>{5}9</b>    <b>{0}9</b><br> aquilo que sonhar<br> <b>{7}</b>     <b>{7}</b>/<b>{11}</b>     <b>{0}9</b><br> Mas nunca terá a paz<br> (<b>{5}9</b> <b>{0}</b> <b>{7}</b>)<br> que existe lá dentro<br> <b>{7}</b>       <b>{7}</b>/<b>{11}</b><br> Que não se encontra<br> <b>{9}7</b><br> pra poder comprar.<br> <b>{0}9</b>       <b>{7}</b>/<b>{11}</b><br> Porque essa paz<br> <b>{9}7</b><br> só tem a pessoa<br> <b>{0}9</b>            <b>{5}9</b><br> Que se encontra<br> <b>{7}</b><br> com cristo!<br> <br> <br> Solo (<b>{7}</b>  <b>{0}</b> ) 6x<br>"
     }
   ],
   "tones": [

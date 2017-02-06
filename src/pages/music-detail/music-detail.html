@@ -12,76 +12,7 @@
 
   <button ion-button color="light" small (click)="changeTone()" class="btnTone">Tom: {{music.tone}}{{music.minor}}</button>
 
-  <pre>
-Intro.:| C9 D9 Em |
-
-Em              C9          G9
-Se eu pudesse explicar ao mundo
-     A9    C9         Em
-O que é andar contigo, Oh Deus!
-C9              A9        G#  
-Minhas palavras não poderiam 
-  C9  Bm
-expressar
-        F    Am       D9       Bm
-O Teu poder. O Teu imutável amor
-              F            Am
-Falar de Quem foi, que é e sempre
-     D9   E
-será Deus!
-
-          C9    D9   E 
-Cantem os povos ao Senhor.
- C9      D9      E
-A Ele     o    louvor
-       C9      D9    E
-A majestade ao Rei dos reis.
-        C9    D9    E
-O verdadeiro Deus, o Eu Sou!
-
-Em        C9       G
-Como poderia me calar.
-  A         C9    E
-Depois de O conhecer meu Deus
-  C9             A9
-Será que alguém poderá 
-     G#  C9  Bm
-entende|--e|--er
-         F      Am     D9
-O Teu querer. A Tua graça e 
-        Bm
-Teu favor
-         F           Am
-Aquele que foi, que é e sempre 
- D9    E
-será Deus!
-
-Em      Bm         D9
-O Teu entendimento não pode 
-    A9  Em
-se medir
-            Bm         D9
-Desde o princípio anuncia 
-            A9 Em
-o que há de vir
-       Bm              D9
-Virá o dia em que a verdade 
-        A9 Em
-se revelará
-       Bm          D9
-E Tua glória este mundo 
-      C9
-contemplará
-
-Intro + Passagem(solo):
-(C9 D9 E Am C9 Em
-D9 Am C9 Em F )
-
-Passagem: 
-(Em G9 Bm A9)
-
-E F# E B F# E D G C D E
-  </pre>
+  <pre [innerHTML]="chords"></pre>
 
 
 </ion-content>
