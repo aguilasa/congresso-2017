@@ -14,7 +14,8 @@ import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs/tabs';
 import { MusicListPage } from '../pages/music-list/music-list';
 import { MusicDetailPage } from '../pages/music-detail/music-detail';
-import { ModalTonePage } from '../pages/modal-tone/modal-tone'
+import { ModalTonePage } from '../pages/modal-tone/modal-tone';
+import { SeminarListPage } from '../pages/seminar-list/seminar-list';
 
 import { ConferenceData } from '../providers/conference-data';
 
@@ -31,7 +32,8 @@ import { ConferenceData } from '../providers/conference-data';
     TabsPage,
     MusicListPage,
     MusicDetailPage,
-    ModalTonePage
+    ModalTonePage,
+    SeminarListPage
   ],
   imports: [
     IonicModule.forRoot(ConferenceApp)
@@ -48,7 +50,8 @@ import { ConferenceData } from '../providers/conference-data';
     TabsPage,
     MusicListPage,
     MusicDetailPage,
-    ModalTonePage
+    ModalTonePage,
+    SeminarListPage
   ],
   providers: [ConferenceData, Storage]
 })

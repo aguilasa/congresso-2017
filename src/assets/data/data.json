@@ -134,7 +134,8 @@
               "location": "Diversos",
               "description": "Seminários.",
               "timeStart": "10:00",
-              "timeEnd": "12:00"
+              "timeEnd": "12:00",
+              "isSeminar": "true"
             }
           ]
         },
@@ -269,7 +270,8 @@
               "location": "Diversos",
               "description": "Seminários.",
               "timeStart": "10:00",
-              "timeEnd": "12:00"
+              "timeEnd": "12:00",
+              "isSeminar": "true"
             }
           ]
         },

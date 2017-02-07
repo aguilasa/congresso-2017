@@ -103,4 +103,10 @@ export class ConferenceData {
     });
   }
 
+  getSeminars() {
+    return this.load().map(data => {
+      return data.seminars;
+    });
+  }
+
 }

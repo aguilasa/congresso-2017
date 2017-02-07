@@ -18,4 +18,6 @@
   <p><b>Local: </b>{{session.location}}</p>
 
   <p [innerHTML]="session.description"></p>
+
+  <button ion-button block color="primary" (click)="goToSeminars()" [hidden]="this.session.isSeminar === false">Seminários</button>
 </ion-content>
