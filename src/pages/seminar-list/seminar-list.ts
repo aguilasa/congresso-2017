@@ -15,7 +15,7 @@ import { ConferenceData } from '../../providers/conference-data';
 })
 export class SeminarListPage {
 
-  data: Array<{ title: string, details: string, icon: string, showDetails: boolean }> = [];
+  seminarData: Array<{ title: string, details: string, icon: string, showDetails: boolean }> = [];
 
   constructor(
     public navCtrl: NavController,
@@ -26,10 +26,10 @@ export class SeminarListPage {
   ionViewDidLoad() {
     this.confData.getSeminars().subscribe(seminars => {
       for (let seminar of seminars) {
-        this.data.push({
+        this.seminarData.push({
           title:  seminar.title,
           details: seminar.description,
-          icon: 'add-circle',
+          icon: 'ios-arrow-down',
           showDetails: false
         });
       }
@@ -39,10 +39,10 @@ export class SeminarListPage {
   toggleDetails(data) {
     if (data.showDetails) {
       data.showDetails = false;
-      data.icon = 'add-circle';
+      data.icon = 'ios-arrow-down';
     } else {
       data.showDetails = true;
-      data.icon = 'remove-circle';
+      data.icon = 'ios-arrow-up';
     }
   }
 

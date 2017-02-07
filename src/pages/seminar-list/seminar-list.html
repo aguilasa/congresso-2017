@@ -5,23 +5,16 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
   <ion-navbar>
     <ion-title>Seminários</ion-title>
   </ion-navbar>
-
 </ion-header>
-
-
 <ion-content padding>
   <ion-list>
-    <ion-list-header>
-      Ionic 2 Accordion Example.
-    </ion-list-header>
-    <ion-item padding *ngFor="let d of data" (click)="toggleDetails(d)">
-      <ion-icon color="primary" item-right [name]="d.icon"></ion-icon>
-      {{d.title}}
-      <div *ngIf="d.showDetails">{{d.details}}</div>
-    </ion-item>
+    <button ion-item *ngFor="let d of seminarData" (click)="toggleDetails(d)">
+        <ion-icon item-left [name]="d.icon" color="primary"></ion-icon>
+        {{d.title}}
+        <div *ngIf="d.showDetails" [innerHTML]="d.details"></div>
+      </button>
   </ion-list>
 </ion-content>

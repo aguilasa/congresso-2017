@@ -12,6 +12,7 @@ export class ModalTonePage {
   rows: any;
   canLeave: boolean = false;
   name: string;
+  tone: any;
 
   constructor(
     public navCtrl: NavController,
@@ -25,6 +26,7 @@ export class ModalTonePage {
   ionViewDidLoad() {
     this.music = this.navParams.get('music');
     this.name = this.music.name;
+    this.tone = this.music.tone;
     this.loadRowsSequence();
   }
 
@@ -86,7 +88,7 @@ export class ModalTonePage {
 
   cancel() {
     this.canLeave = true;
-    this.restore(false);
+    this.music.tone = this.tone;
     this.viewCtrl.dismiss(this.music);
   }
 

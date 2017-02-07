@@ -839,37 +839,44 @@
   ],
   "seminars": [
     { 
-      "title": "1. Sexualidade: um presente pleno feito para você ",
+      "title": "1. Sexualidade",
+      "subtitle": "Um presente pleno feito para você",
       "speakers":["Adriana Dümes"],
-      "description": "Pouco ou quase nada temos desfrutado do presente de Deus, daquilo que Ele mesmo criou no conjunto da Sexualidade para um homem e mulher. Conceitos invertidos e distorcidos, o sentimento de culpa, a falta de entendimento do presente pleno de Deus que há dentro da Sexualidade, tem nos levado a desconhecer e estarmos distantes de desfrutar da plenitude da Sexualidade. Um presente especial de Deus a espera de cada um de nós: que vivamos como uma importante fonte de benção. A plenitude da sexualidade criada por Deus: é boa, perfeita e agradável."
+      "description": "Pouco ou quase nada temos desfrutado do presente de Deus, daquilo que Ele mesmo criou no conjunto da Sexualidade para um homem e mulher.<br><br>Conceitos invertidos e distorcidos, o sentimento de culpa, a falta de entendimento do presente pleno de Deus que há dentro da Sexualidade, tem nos levado a desconhecer e estarmos distantes de desfrutar da plenitude da Sexualidade.<br><br>Um presente especial de Deus a espera de cada um de nós: que vivamos como uma importante fonte de benção. A plenitude da sexualidade criada por Deus: é boa, perfeita e agradável."
     },
     { 
-      "title": "2. Lidando com o dinheiro na perspectiva cristã",
+      "title": "2. Lidando com o dinheiro",
+      "subtitle": "Na perspectiva cristã",
       "speakers":["Ivan Marcos Kruger"],
-      "description": "O Objetivo do seminário é demonstrar a importância que o tema tem dentro da Bíblia, exemplificado através do número de vezes que ele aparece no velho e novo testamento em diversos contextos. A palestra também aborda as estatísticas brasileiras do endividamento familiar em uma sociedade consumista e capitalista. Estuda-se a diferença entre ambição e ganância, bem como os perigos do \"deus Mamom\", - nomenclatura da potestade do dinheiro no contexto espiritual. O seminário também oportuniza uma reflexão que leva à uma analise individual para saber em que nível somos escravos do dinheiro, e o que fazer para, como cristãos, andarmos na contramão do sistema também dentro das questões financeiras. Por fim, como uma visão critica contra a teologia da prosperidade, a explanação quer levar a uma ideia de que o dinheiro é um ótimo \"empregado\", mas um péssimo \"patrão\"."
+      "description": "O Objetivo do seminário é demonstrar a importância que o tema tem dentro da Bíblia, exemplificado através do número de vezes que ele aparece no velho e novo testamento em diversos contextos.<br><br>A palestra também aborda as estatísticas brasileiras do endividamento familiar em uma sociedade consumista e capitalista. Estuda-se a diferença entre ambição e ganância, bem como os perigos do \"deus Mamom\", - nomenclatura da potestade do dinheiro no contexto espiritual.<br><br>O seminário também oportuniza uma reflexão que leva à uma analise individual para saber em que nível somos escravos do dinheiro, e o que fazer para, como cristãos, andarmos na contramão do sistema também dentro das questões financeiras.<br><br>Por fim, como uma visão critica contra a teologia da prosperidade, a explanação quer levar a uma ideia de que o dinheiro é um ótimo \"empregado\", mas um péssimo \"patrão\"."
     },
     { 
-      "title": "3. Questão de gênero: Um diálogo a partir do evangelho e do estado de direito",
+      "title": "3. Questão de gênero",
+      "subtitle": "Um diálogo a partir do evangelho e do estado de direito",
       "speakers":["Carlos A. Kunz", "Daniel Raduenz"],
-      "description": "O assunto \"gênero\" é polêmico e carrega consigo as mais variadas divergências. Nosso diálogo pretende ser uma orientação a partir evangelho e do estado de direito, contribuindo para um convívio equilibrado entre aqueles que possuem opiniões diferentes."
+      "description": "O assunto \"gênero\" é polêmico e carrega consigo as mais variadas divergências.<br><br>Nosso diálogo pretende ser uma orientação a partir evangelho e do estado de direito, contribuindo para um convívio equilibrado entre aqueles que possuem opiniões diferentes."
     },
     { 
-      "title": "4. Prazer imediato: cultura do lazer",
+      "title": "4. Prazer imediato",
+      "subtitle": "Cultura do lazer",
       "speakers":["Douglas Rengel"],
-      "description": "Será que o cristão pode ter prazeres na vida? Existe algum limite?<br>O mundo está cada vez mais acelerado, fazendo com que as pessoas não tenham mais paciência para nada: tudo deve ser feito para ontem. Isso afeta também nosso lazer, no qual acabamos tendo dificuldade em parar, pois precisamos estar o tempo todo entretidos. Sem falar nos conceitos de prazer em que somos bombardeados. Está cada vez mais difícil encontrar respostas, pois acabamos agindo a partir do imediatismo, tomando decisões sem pensar nas consequências e nos outros, criando assim uma mente insaciável. Será que a Bíblia nos dá alguma resposta? O que podemos aprender com Jesus?"
+      "description": "Será que o cristão pode ter prazeres na vida? Existe algum limite?<br><br>O mundo está cada vez mais acelerado, fazendo com que as pessoas não tenham mais paciência para nada: tudo deve ser feito para ontem. Isso afeta também nosso lazer, no qual acabamos tendo dificuldade em parar, pois precisamos estar o tempo todo entretidos. Sem falar nos conceitos de prazer em que somos bombardeados. Está cada vez mais difícil encontrar respostas, pois acabamos agindo a partir do imediatismo, tomando decisões sem pensar nas consequências e nos outros, criando assim uma mente insaciável.<br><br>Será que a Bíblia nos dá alguma resposta? O que podemos aprender com Jesus?"
     },
     { 
       "title": "5. Cultura de Violência",
+      "subtitle": "",
       "speakers":["Cidinei Cichoves"],
       "description": ""
     },
     { 
       "title": "6. Ouse ser líder",
+      "subtitle": "",
       "speakers":["Rafael Klabunde"],
       "description": "Em linhas gerais, este seminário irá tratar dos seguintes aspectos: Todos tem capacidade de serem bons lideres; O que se espera do líder (caráter, relacionamento com Deus, testemunho); Formação de liderança (discipulado e discipulador); O líder nunca está pronto, mas está em formação; Liderar é um grande desafio e espera-se responsabilidade, compromisso, testemunho."
     },
     { 
       "title": "7. Missão Transcultural",
+      "subtitle": "",
       "speakers":["Martin Höfer (DIPM)", "Christel Grigull (MIAF)"],
       "description": ""
     }

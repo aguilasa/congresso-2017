@@ -6,7 +6,24 @@
     <ion-title>Informações</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content>
-
+  <ion-card class="cards-list-demo">
+    <ion-card-header (click)="toggleSeminars()">
+      <ion-icon [name]="seminarsIcon" class="header"></ion-icon>
+      Seminários
+    </ion-card-header>
+    <ion-list *ngIf="showSeminars">
+      <button ion-item *ngFor="let d of seminarData" (click)="toggleSeminar(d)">
+        <ion-icon item-left [name]="d.icon" color="primary" class="seminar"></ion-icon>
+        {{d.title}}
+        <div *ngIf="d.showDetails" [innerHTML]="d.details"></div>
+      </button>
+    </ion-list>
+  </ion-card>
+  <ion-card class="cards-list-demo">
+    <ion-card-header>
+      <ion-icon name="ios-arrow-down" class="header"></ion-icon>
+      Preços dos Produtos - Quiosques
+    </ion-card-header>
+  </ion-card>
 </ion-content>
