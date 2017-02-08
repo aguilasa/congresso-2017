@@ -37,13 +37,12 @@ export class SeminarListPage {
   }
 
   toggleDetails(data) {
-    if (data.showDetails) {
-      data.showDetails = false;
-      data.icon = 'ios-arrow-down';
-    } else {
-      data.showDetails = true;
-      data.icon = 'ios-arrow-up';
+    for (let s of this.seminarData) {
+      s.showDetails = false;
     }
+    
+    data.showDetails = !data.showDetails;
+    data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
 
 }

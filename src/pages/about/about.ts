@@ -38,6 +38,10 @@ export class AboutPage {
   }
 
   toggleSeminar(data) {
+    for (let s of this.seminarData) {
+      s.showDetails = false;
+    }
+    
     data.showDetails = !data.showDetails;
     data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
