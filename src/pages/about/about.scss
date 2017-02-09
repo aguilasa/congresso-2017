@@ -3,11 +3,9 @@ page-about {
     color: map-get($colors, light);
     background-color: map-get($colors, primary);
   }
-
-  ion-icon.header  {
-      padding-right: 5px;
+  ion-icon.header {
+    padding-right: 5px;
   }
-  
   ion-list {
     ion-item {
       background-color: transparent;
@@ -23,7 +21,7 @@ page-about {
         text-align: justify;
       }
     }
-    ion-icon.seminar  {
+    ion-icon.seminar {
       font-size: 1.8rem;
       padding: 0;
       text-align: center;
@@ -35,6 +33,4 @@ page-about {
       }
     }
   }
-
-
 }

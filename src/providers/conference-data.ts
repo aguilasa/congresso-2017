@@ -109,4 +109,10 @@ export class ConferenceData {
     });
   }
 
+  getProducts() {
+    return this.load().map(data => {
+      return data.products;
+    });
+  }
+
 }

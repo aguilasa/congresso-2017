@@ -10,7 +10,7 @@ import { ConferenceData } from '../../providers/conference-data';
 })
 export class AboutPage {
 
-  seminarData: Array<{ title: string, details: string, icon: string, showDetails: boolean }> = [];
+  seminarData: Array<{ id: number, title: string, details: string, icon: string, showDetails: boolean }> = [];
   showSeminars: boolean = false;
   seminarsIcon: string = "ios-arrow-down";
 
@@ -26,9 +26,12 @@ export class AboutPage {
 
   loadSeminars() {
     this.confData.getSeminars().subscribe(seminars => {
+      let i: number = 0;
       for (let seminar of seminars) {
+        i++;
         this.seminarData.push({
-          title:  seminar.title,
+          id: i,
+          title: seminar.title,
           details: seminar.description,
           icon: 'ios-arrow-down',
           showDetails: false
@@ -39,9 +42,11 @@ export class AboutPage {
 
   toggleSeminar(data) {
     for (let s of this.seminarData) {
-      s.showDetails = false;
+      if (s.id !== data.id) {
+        s.showDetails = false;
+      }
     }
-    
+
     data.showDetails = !data.showDetails;
     data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
