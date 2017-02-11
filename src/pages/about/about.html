@@ -21,11 +21,11 @@
     </ion-list>
   </ion-card>
   <ion-card class="cards-list-demo">
-    <ion-card-header>
-      <ion-icon name="ios-arrow-down" class="header"></ion-icon>
+    <ion-card-header (click)="togglePrices()">
+      <ion-icon [name]="pricesIcon" class="header"></ion-icon>
       Preços - Quiosques
     </ion-card-header>
-    <ion-item-group>
+    <ion-item-group *ngIf="showPrices">
       <ion-item-divider color="light">
         <ion-row>
           <ion-col width-75>
@@ -36,8 +36,17 @@
           </ion-col>
         </ion-row>
       </ion-item-divider>
-      <ion-item>Angola</ion-item>
-      <ion-item>Argentina</ion-item>
+
+      <ion-item *ngFor="let p of products">
+        <ion-row (click)="showAlertKiosk(p)">
+          <ion-col width-75>
+            {{p.name}}
+          </ion-col>
+          <ion-col>
+            {{p.price}}
+          </ion-col>
+        </ion-row>
+      </ion-item>
     </ion-item-group>
   </ion-card>
 </ion-content>

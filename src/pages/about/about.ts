@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, AlertController  } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 
@@ -12,16 +12,21 @@ export class AboutPage {
 
   seminarData: Array<{ id: number, title: string, details: string, icon: string, showDetails: boolean }> = [];
   showSeminars: boolean = false;
+  showPrices: boolean = false;
   seminarsIcon: string = "ios-arrow-down";
+  pricesIcon: string = "ios-arrow-down";
+  products: any;
 
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
+    public alerCtrl: AlertController,
     public confData: ConferenceData
   ) { }
 
   ionViewDidLoad() {
     this.loadSeminars();
+    this.loadProducts();
   }
 
   loadSeminars() {
@@ -40,6 +45,12 @@ export class AboutPage {
     });
   }
 
+  loadProducts() {
+    this.confData.getProducts().subscribe(products => {
+      this.products = products;
+    });
+  }
+
   toggleSeminar(data) {
     for (let s of this.seminarData) {
       if (s.id !== data.id) {
@@ -54,5 +65,19 @@ export class AboutPage {
   toggleSeminars() {
     this.showSeminars = !this.showSeminars;
     this.seminarsIcon = this.showSeminars ? 'ios-arrow-up' : 'ios-arrow-down';
+  }
+
+  togglePrices() {
+    this.showPrices = !this.showPrices;
+    this.pricesIcon = this.showPrices ? 'ios-arrow-up' : 'ios-arrow-down';
+  }
+
+  showAlertKiosk(product) {
+    let alert = this.alerCtrl.create({
+      title: product.name,
+      message: 'Onde você encontra esse produto: ' + product.kiosks,
+      buttons: ['Ok']
+    });
+    alert.present()
   }
 }

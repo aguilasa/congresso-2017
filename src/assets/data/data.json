@@ -818,67 +818,83 @@
   ],
   "products": [{
       "name": "Água Mineral",
-      "price": "R$2,50"
+      "price": "R$2,50",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Choco Leite",
-      "price": "R$4,50"
+      "price": "R$4,50",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Crepe",
-      "price": "R$3,00"
+      "price": "R$3,00",
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Galeto c/Pão",
-      "price": "R$5,00"
+      "price": "R$5,00",
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Misto Quente",
-      "price": "R$3,50"
+      "price": "R$3,50",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Pastel",
-      "price": "R$3,75"
+      "price": "R$3,75",
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Mini Pizza",
-      "price": "R$4,00"
+      "price": "R$4,00",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Refrigerante 600Ml / H2OH",
-      "price": "R$4,50"
+      "price": "R$4,50",
+      "kiosks": "Quiosque1, Quiosque 2"
     },
     {
       "name": "Refrigerante Lata",
-      "price": "R$4,00"
+      "price": "R$4,00",
+      "kiosks": "Quiosque1, Quiosque 2"
     },
     {
       "name": "Sanduíche Natural",
-      "price": "R$4,50"
+      "price": "R$4,50",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Suco",
-      "price": "R$4,00"
+      "price": "R$4,00",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Cheese Burger",
-      "price": "R$6,00"
+      "price": "R$6,00",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Fritas",
-      "price": "R$7,00"
+      "price": "R$7,00",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Gelo",
-      "price": "R$7,00"
+      "price": "R$7,00",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Água 5l",
-      "price": "R$8,00"
+      "price": "R$8,00",
+      "kiosks": "Quiosque 2"
     },
     {
       "name": "Almoço",
-      "price": "R$8,00}"
+      "price": "R$8,00",
+      "kiosks": "Quiosque 2"
     }
   ]
 }
