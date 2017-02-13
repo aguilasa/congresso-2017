@@ -16,13 +16,17 @@ export class AboutPage {
   seminarsIcon: string = "ios-arrow-down";
   pricesIcon: string = "ios-arrow-down";
   products: any;
+  shows: Array<{id: number, icon: string, show: boolean}> = [];
 
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
     public alerCtrl: AlertController,
     public confData: ConferenceData
-  ) { }
+  ) { 
+    this.shows.push({id: 1, icon: "ios-arrow-down", show: false }); //seminários
+    this.shows.push({id: 2, icon: "ios-arrow-down", show: false }); //preços
+  }
 
   ionViewDidLoad() {
     this.loadSeminars();
@@ -51,27 +55,6 @@ export class AboutPage {
     });
   }
 
-  toggleSeminar(data) {
-    for (let s of this.seminarData) {
-      if (s.id !== data.id) {
-        s.showDetails = false;
-      }
-    }
-
-    data.showDetails = !data.showDetails;
-    data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
-  }
-
-  toggleSeminars() {
-    this.showSeminars = !this.showSeminars;
-    this.seminarsIcon = this.showSeminars ? 'ios-arrow-up' : 'ios-arrow-down';
-  }
-
-  togglePrices() {
-    this.showPrices = !this.showPrices;
-    this.pricesIcon = this.showPrices ? 'ios-arrow-up' : 'ios-arrow-down';
-  }
-
   showAlertKiosk(product) {
     let alert = this.alerCtrl.create({
       title: product.name,
@@ -79,5 +62,16 @@ export class AboutPage {
       buttons: ['Ok']
     });
     alert.present()
+  }
+
+  togleInfo(id) {
+    for (let s of this.shows) {
+      if (s.id === id) {
+        s.show = !s.show;
+      } else {
+        s.show = false;
+      }
+      s.icon = s.show ? 'ios-arrow-up' : 'ios-arrow-down';
+    }
   }
 }
