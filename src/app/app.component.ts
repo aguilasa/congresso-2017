@@ -56,7 +56,8 @@ export class ConferenceApp {
     // reset the nav to remove previous pages and only have this page
     // we wouldn't want the back button to show in this scenario
     if (page.index) {
-      this.nav.push(page.component, { tabIndex: page.index });
+      // this.nav.push(page.component, { tabIndex: page.index });
+      this.nav.setRoot(page.component, { tabIndex: page.index });
 
     } else {
       this.nav.setRoot(page.component).catch(() => {

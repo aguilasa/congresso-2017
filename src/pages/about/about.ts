@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams, AlertController  } from 'ionic-angular';
+import { NavController, NavParams, AlertController } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 
@@ -16,16 +16,16 @@ export class AboutPage {
   seminarsIcon: string = "ios-arrow-down";
   pricesIcon: string = "ios-arrow-down";
   products: any;
-  shows: Array<{id: number, icon: string, show: boolean}> = [];
+  shows: Array<{ id: number, icon: string, show: boolean }> = [];
 
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
     public alerCtrl: AlertController,
     public confData: ConferenceData
-  ) { 
-    this.shows.push({id: 1, icon: "ios-arrow-down", show: false }); //seminários
-    this.shows.push({id: 2, icon: "ios-arrow-down", show: false }); //preços
+  ) {
+    this.shows.push({ id: 1, icon: "ios-arrow-down", show: false }); //seminários
+    this.shows.push({ id: 2, icon: "ios-arrow-down", show: false }); //preços
   }
 
   ionViewDidLoad() {
@@ -73,5 +73,16 @@ export class AboutPage {
       }
       s.icon = s.show ? 'ios-arrow-up' : 'ios-arrow-down';
     }
+  }
+
+  toggleSeminar(data) {
+    for (let s of this.seminarData) {
+      if (s.id !== data.id) {
+        s.showDetails = false;
+      }
+    }
+
+    data.showDetails = !data.showDetails;
+    data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
 }

@@ -1,6 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, Platform } from 'ionic-angular';
-import Raphael from 'raphael';
+//import Raphael from 'raphael';
 
 @Component({
   selector: 'page-map',
@@ -17,8 +17,8 @@ export class MapPage {
   }
 
   ionViewDidLoad() {
-    console.log(this.container);
-    this.getContainer().innerHTML = this.plt.width() + " x " + this.plt.height();
+    // console.log(this.container);
+    // this.getContainer().innerHTML = this.plt.width() + " x " + this.plt.height();
   }
 
   getContainer() {
