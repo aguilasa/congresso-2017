@@ -21,7 +21,6 @@ export class MusicListPage {
 
   goToMusicDetail(music) {
     this.navCtrl.push(MusicDetailPage, music);
-    console.log(music.name);
   }
 
 }

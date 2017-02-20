@@ -17,8 +17,7 @@ export class MapPage {
   }
 
   ionViewDidLoad() {
-    // console.log(this.container);
-    // this.getContainer().innerHTML = this.plt.width() + " x " + this.plt.height();
+
   }
 
   getContainer() {

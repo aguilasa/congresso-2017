@@ -39,7 +39,6 @@ export class MusicDetailPage {
           newtoken = tone.sequence[i];
           this.chords = this.replaceAll(this.chords, token, newtoken);
         }
-        console.log("Tom: " + tone.tone);
         break;
       }
     }
@@ -53,7 +52,6 @@ export class MusicDetailPage {
 	}
 
   changeTone() {
-    console.log('changeTone MusicDetailPage');
     let modal = this.modalCtrl.create(ModalTonePage, {
       music: this.music
     });

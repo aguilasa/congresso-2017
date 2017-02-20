@@ -68,14 +68,12 @@ export class ModalTonePage {
         if (sequence.tone === this.music.tone) {
           sequence.color = "primary";
         }
-        console.log(sequence.tone);
       }
     }
   }
 
   changeTone(seq) {
     this.music.tone = seq.tone;
-    console.log(seq.tone);
     this.updateRows();
   }
 

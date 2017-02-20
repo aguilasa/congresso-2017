@@ -62,7 +62,6 @@ export class SchedulePage {
     const currentSlide = this.slides[this.slider.getActiveIndex()];
     this.segment = currentSlide.segment;
     this.updateSchedule(false);
-    console.log('Slide changed: ' + currentSlide.segment);
   }
 
   scrollToTop() {

@@ -61,7 +61,7 @@ export class ConferenceApp {
 
     } else {
       this.nav.setRoot(page.component).catch(() => {
-        console.log("Didn't set nav root");
+        
       });
     }
   }
