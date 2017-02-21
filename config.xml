@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="br.com.sejameuc.congresso2017" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.github.aguilasa.cong001" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SEJA - 38° Congresso  de Jovens</name>
-  <description>&#xD;
-        Aplicativo do 38° Congresso  de Jovens.&#xD;
+  <description>Aplicativo do 38° Congresso  de Jovens
   </description>
-  <author email="sejameuc@sejameuc.com.br" href="http://www.sejameuc.com.br/">Seja - Secretaria de Jovens e Adolescentes</author>
+  <author email="ingmar.aguiar@gmail.com" href="https://aguilasa.github.io/">Ingmar Aguiar</author>
   <content src="index.html"/>
   <access origin="*"/>
   <allow-intent href="http://*/*"/>
