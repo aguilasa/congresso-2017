@@ -26,8 +26,8 @@
 <ion-content padding>
   <ion-slides #mySlider (ionSlideDidChange)="onSlideChanged()">
     <ion-slide *ngFor="let slide of slides">
-      <ion-list #scheduleList>
-        <ion-item-group *ngFor="let group of slide.groups">
+      <ion-list #scheduleList *ngIf="slide.day == dayIndex">
+        <ion-item-group *ngFor="let group of slide.groups" >
           <ion-item-divider sticky>
             <ion-label>
               {{group.time}}
