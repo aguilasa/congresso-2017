@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 
 import { IonicApp, IonicModule } from 'ionic-angular';
-import { Storage } from '@ionic/storage';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 import { ConferenceApp } from './app.component';
 
@@ -36,6 +39,8 @@ import { ConferenceData } from '../providers/conference-data';
     SeminarListPage
   ],
   imports: [
+    BrowserModule,
+    HttpModule,
     IonicModule.forRoot(ConferenceApp)
   ],
   bootstrap: [IonicApp],
@@ -53,6 +58,10 @@ import { ConferenceData } from '../providers/conference-data';
     ModalTonePage,
     SeminarListPage
   ],
-  providers: [ConferenceData, Storage]
+  providers: [
+    ConferenceData,
+    SplashScreen,
+    InAppBrowser
+  ]
 })
 export class AppModule { }

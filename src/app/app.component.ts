@@ -1,8 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 
 import { Events, MenuController, Nav, Platform } from 'ionic-angular';
-import { Splashscreen } from 'ionic-native';
-import { Storage } from '@ionic/storage';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -42,7 +41,7 @@ export class ConferenceApp {
     public menu: MenuController,
     public platform: Platform,
     public confData: ConferenceData,
-    public storage: Storage
+    public splashScreen: SplashScreen
   ) {
     this.rootPage = TabsPage;
     this.platformReady();
@@ -68,9 +67,9 @@ export class ConferenceApp {
   platformReady() {
     // Call any initial plugins when ready
     this.platform.ready().then(() => {
-      if (Splashscreen) {
+      if (this.splashScreen) {
         setTimeout(() => {
-          Splashscreen.hide();
+          this.splashScreen.hide();
         }, 100);
       }
     });
